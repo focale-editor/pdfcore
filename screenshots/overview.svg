@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" width="512" height="512" viewBox="0 0 512 512">
+  <title>PdfCore package overview</title>
+  <desc>Two PDF pages containing editable text and vector graphics.</desc>
+  <rect width="512" height="512" rx="80" fill="#181F33"/>
+  <g transform="translate(38.4 38.4) scale(0.534601226993865)">
+    <!-- One lens ring leaves the aperture readable at small icon sizes. -->
+    <circle cx="407.5" cy="407.5" r="350" fill="none" stroke="#3F4B62" stroke-width="26" />
+
+    <!-- Keep the original eight-blade aperture as the photographic signature. -->
+    <g fill="#354056">
+      <path d="m 272.3999,156.6001 c 0,0 -84,31.2 -133.5,148.6 l 273.4,-51.7 z" />
+      <path d="m 134.6999,321.9001 c 0,0 -36.999993,81.6 11.4,199.4 l 156.1,-230.4 z" />
+      <path d="m 155.6999,533.0001 c 0,0 31.2,83.9 148.6,133.5 l -51.7,-273.5 z" />
+      <path d="m 320.9999,670.6001 c 0,0 81.5,37 199.4,-11.4 l -230.4,-156 z" />
+      <path d="m 536.4999,652.3001 c 0,0 84,-31.2 133.5,-148.6 l -273.5,51.7 z" />
+      <path d="m 662.7999,287.6001 -156,230.5 167.4,-31.1 c 0,0 36.9,-81.5 -11.4,-199.4 z" />
+      <path d="m 652.2999,276.0001 c 0,0 -31.2,-83.9 -148.6,-133.5 l 51.7,273.5 z" />
+      <path d="m 486.99996,138.40014 c 0,0 -81.5,-37 -199.4,11.4 l 230.5,156 z" />
+    </g>
+
+    <!-- A short, flat blue accent replaces the bright full-ring gradient. -->
+    <path d="M654.987 160.013 A350 350 0 0 1 654.987 654.987" fill="none" stroke="#538BD5" stroke-width="26" stroke-linecap="round" />
+  </g>
+  <!-- The package symbol uses the same scale and palette as the other Focale kits. -->
+  <g transform="translate(256 256) scale(1.12) translate(-256 -256)">
+    <g fill="none" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M207 303h-18V179h67v15" stroke="#68758E" stroke-width="8"/>
+      <path d="M215 201h62l30 30v101h-92Z" fill="#181F33" stroke="#EDF0F4" stroke-width="9"/>
+      <path d="M277 201v30h30" stroke="#538BD5" stroke-width="8"/>
+      <path d="M234 251h32m-32 16h53" stroke="#538BD5" stroke-width="7"/>
+      <path d="m234 309 16-22 14 14 10-11 13 19Z" stroke="#538BD5" stroke-width="6"/>
+    </g>
+  </g>
+</svg>

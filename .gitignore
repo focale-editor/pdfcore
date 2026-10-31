@@ -1,0 +1,14 @@
+.dart_tool/
+build/
+coverage/
+doc/
+pubspec.lock
+pubspec_overrides.yaml
+.env
+.idea/
+.vscode/
+*.iml
+test/corpus/files/
+test/corpus/output/
+__pycache__/
+*.pyc

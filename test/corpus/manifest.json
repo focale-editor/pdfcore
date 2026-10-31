@@ -1,0 +1,385 @@
+{
+  "schema": 1,
+  "files": [
+    {
+      "file": "minimal.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/minimal.pdf",
+      "size": 763,
+      "sha256": "c16e6eaf7d26ae388cac9a262224981394dc590f940bd2e3bb926eba2f2132a2",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0 (QPDF test suite)",
+      "expected": "accept"
+    },
+    {
+      "file": "good1.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/good1.pdf",
+      "size": 813,
+      "sha256": "29be5baa5a7a95e02a2cc34a714836ce4d6e8ada1e9a390ee585ff005cb8a7ed",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0 (QPDF test suite)",
+      "expected": "accept"
+    },
+    {
+      "file": "good2.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/good2.pdf",
+      "size": 777,
+      "sha256": "2b874e4b77a651a9dcc0e905bcef211a8f8b31aa057559dbd90b4ed0b84eebd7",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0 (QPDF test suite)",
+      "expected": "accept"
+    },
+    {
+      "file": "good3.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/good3.pdf",
+      "size": 778,
+      "sha256": "bff81dba2b425a657fb866feab904f87cffa8f27a1662d7edf5b3fe30dbfd067",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0 (QPDF test suite)",
+      "expected": "accept"
+    },
+    {
+      "file": "good4.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/good4.pdf",
+      "size": 819,
+      "sha256": "54516557585201a9d53b0c46565f7f9becd47a758ba52c2739bb76b33fdbcce0",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0 (QPDF test suite)",
+      "expected": "accept"
+    },
+    {
+      "file": "good5.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/good5.pdf",
+      "size": 819,
+      "sha256": "8b29907fd2edff4cb9a53aa92f19979ba626e84c698012aa39d00dc1555f39fc",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0 (QPDF test suite)",
+      "expected": "accept"
+    },
+    {
+      "file": "good6.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/good6.pdf",
+      "size": 778,
+      "sha256": "672e34b4e503a6b9f55eb4e3b160b3c596dc3f3da24c7d409e2835e4099b1c06",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0 (QPDF test suite)",
+      "expected": "accept"
+    },
+    {
+      "file": "good7.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/good7.pdf",
+      "size": 779,
+      "sha256": "2a23696911e790f5c1363bc42807b9e99214122fb309bb160983edea0e342450",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0 (QPDF test suite)",
+      "expected": "accept"
+    },
+    {
+      "file": "good8.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/good8.pdf",
+      "size": 937,
+      "sha256": "ba1409f9fc9a0c37a22207d22561f4d6c7fc7218fbc1212fec395811098a6e9b",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0 (QPDF test suite)",
+      "expected": "accept"
+    },
+    {
+      "file": "good9.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/good9.pdf",
+      "size": 828,
+      "sha256": "6a1be4f68f212e7aa3473a5c77f49e8ee6ecc480a7629802a413952bfd2f5d85",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0 (QPDF test suite)",
+      "expected": "accept"
+    },
+    {
+      "file": "good10.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/good10.pdf",
+      "size": 802,
+      "sha256": "e2f1621f34c323127852ca6698ec0497d9909701bf6bd7716060e3648ab22373",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0 (QPDF test suite)",
+      "expected": "accept"
+    },
+    {
+      "file": "good11.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/good11.pdf",
+      "size": 806,
+      "sha256": "2c2ef89214da4ea75d6a9cf3ce8e1189068f9adcf6a11886b5595c09374ce117",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0 (QPDF test suite)",
+      "expected": "accept"
+    },
+    {
+      "file": "good12.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/good12.pdf",
+      "size": 1012,
+      "sha256": "4df6eb12fddc6b88b20b5dbb9a56ebcf498dd46007538de2b54b83860a69a69f",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0 (QPDF test suite)",
+      "expected": "accept"
+    },
+    {
+      "file": "good13.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/good13.pdf",
+      "size": 1348,
+      "sha256": "a34fff0f3b3f3e6e7440a6c9eddf680205ff15cc5bbc2ec68cb93b437b1a0d26",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0 (QPDF test suite)",
+      "expected": "accept"
+    },
+    {
+      "file": "good14.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/good14.pdf",
+      "size": 2075,
+      "sha256": "cdb3e5a31cbc0c95591d35202b901ecae77f2979f55fe019c897a234e9446435",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0 (QPDF test suite)",
+      "expected": "accept"
+    },
+    {
+      "file": "good15.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/good15.pdf",
+      "size": 779,
+      "sha256": "f8cce8d66856156b7574dabb1d61ce353af8c36077e87b6e9059e7ae4a283523",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0 (QPDF test suite)",
+      "expected": "accept"
+    },
+    {
+      "file": "good16.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/good16.pdf",
+      "size": 792,
+      "sha256": "7e895514a76bff9c9bb699a14275735c9f5c61415fda7acc1e3e80d3003bc730",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0 (QPDF test suite)",
+      "expected": "accept"
+    },
+    {
+      "file": "good17.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/good17.pdf",
+      "size": 17031,
+      "sha256": "7383ca2c3a1da7c0691e0b8a63ebee3c91b62041ee5a3433a69e721b6c48f190",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0 (QPDF test suite)",
+      "expected": "accept"
+    },
+    {
+      "file": "good18.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/good18.pdf",
+      "size": 16642,
+      "sha256": "e6ea41e27e7ebbb0d89472e698d0cb16beefff768a584ea144ae650f8c4bbaa7",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0 (QPDF test suite)",
+      "expected": "accept"
+    },
+    {
+      "file": "good19.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/good19.pdf",
+      "size": 1032,
+      "sha256": "4321af1c6cc90f383935fe5a92bf12a8359a3b9d0858cc0909ce2b90979bca4d",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0 (QPDF test suite)",
+      "expected": "accept"
+    },
+    {
+      "file": "good20.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/good20.pdf",
+      "size": 10276,
+      "sha256": "2eb4ad5a0f817088fbcca7471c31aa4ea596082c7edd6d65a41d15546e8cb39c",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0 (QPDF test suite)",
+      "expected": "accept"
+    },
+    {
+      "file": "good21.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/good21.pdf",
+      "size": 1097,
+      "sha256": "80844485851cdceeb6f54057b1bf913ae1d0c02a9d55dbccef3d8f9ba891a086",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0 (QPDF test suite)",
+      "expected": "accept"
+    },
+    {
+      "file": "hybrid-xref.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/hybrid-xref.pdf",
+      "size": 16902,
+      "sha256": "df1ae8b9cb2378aaeda6fdc11146dd37328737fd050941390d2c6bd188eea0e4",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0 (QPDF test suite)",
+      "expected": "accept"
+    },
+    {
+      "file": "object-stream.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/object-stream.pdf",
+      "size": 792,
+      "sha256": "7e895514a76bff9c9bb699a14275735c9f5c61415fda7acc1e3e80d3003bc730",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0 (QPDF test suite)",
+      "expected": "accept"
+    },
+    {
+      "file": "c-object-streams.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/c-object-streams.pdf",
+      "size": 5195,
+      "sha256": "0588a730f7b499b2245e826fcba3df9131f698062e774ae2a4fce2db1d67cf0a",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0 (QPDF test suite)",
+      "expected": "accept"
+    },
+    {
+      "file": "incremental-1.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/incremental-1.pdf",
+      "size": 1423,
+      "sha256": "5f9c43d3f201d8e9ea77aa162bf4eb527c563f9db3626a736455e003cf5baaf3",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0 (QPDF test suite)",
+      "expected": "accept"
+    },
+    {
+      "file": "incremental-2.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/incremental-2.pdf",
+      "size": 1279,
+      "sha256": "4549c92369c3184a382f84eeb4500a4459fbd71409a1aa37e2eb91456dc449e3",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0 (QPDF test suite)",
+      "expected": "accept"
+    },
+    {
+      "file": "incremental-3.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/incremental-3.pdf",
+      "size": 944,
+      "sha256": "f40a2393e3272a2e037af195570f2339561e1285038cdb501d6881b75c6c7291",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0 (QPDF test suite)",
+      "expected": "accept",
+      "render_reference": "qpdf-canonical",
+      "note": "The final revision frees object 4, leaving a legal dangling Contents reference (PDF null). Poppler repairs the source by resurrecting the deleted stream. Compare the rewritten page with QPDF canonical interpretation instead."
+    },
+    {
+      "file": "minimal-linearized.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/minimal-linearized.pdf",
+      "size": 1288,
+      "sha256": "75b49e60adac5dd53c07e01c20f488e86c81a12f402c3b1d5b2a5d3e1a7ca883",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0 (QPDF test suite)",
+      "expected": "accept"
+    },
+    {
+      "file": "inherited-rotate.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/inherited-rotate.pdf",
+      "size": 978,
+      "sha256": "69cc42c34812790a88d8275d45ac9b0a72b9e5ad62aa70427d25caeee4a9f46a",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0 (QPDF test suite)",
+      "expected": "accept"
+    },
+    {
+      "file": "form-xobjects-out.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/form-xobjects-out.pdf",
+      "size": 24276,
+      "sha256": "596fe70aaac7f86bd2cea929a5a785a7680e704aa8a0fdfe90a2f9445a02a811",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0 (QPDF test suite)",
+      "expected": "accept"
+    },
+    {
+      "file": "image-streams-small.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/image-streams-small.pdf",
+      "size": 21748,
+      "sha256": "37e3ffe9bfc79b79a954758a885a0dc0e91e5d95674a8b8e77c4e729dd6603c6",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0 (QPDF test suite)",
+      "expected": "accept"
+    },
+    {
+      "file": "png-filters.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/png-filters.pdf",
+      "size": 16827,
+      "sha256": "96f0e165db3cb2ff3a4911e3a0c8e31dd2757f01049f2dd24aba13bfd23fa37a",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0 (QPDF test suite)",
+      "expected": "accept"
+    },
+    {
+      "file": "tiff-predictor.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/tiff-predictor.pdf",
+      "size": 1331,
+      "sha256": "7c7dadd5bd9266754d8b6820859185428ea8ee2f78c8699aedc5ff09e67c9e19",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0 (QPDF test suite)",
+      "expected": "accept"
+    },
+    {
+      "file": "indirect-filter.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/indirect-filter.pdf",
+      "size": 5404,
+      "sha256": "9ca1cae6c28e5170e9b8ec73af2542cf15ce93c7420852de8efcd80f053601c0",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0 (QPDF test suite)",
+      "expected": "accept"
+    },
+    {
+      "file": "split-content-stream.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/split-content-stream.pdf",
+      "size": 907,
+      "sha256": "0b4c41ab4069699c23b122b1f2e428ccb2da71130b4b316f1c5f13c25548054f",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0 (QPDF test suite)",
+      "expected": "accept"
+    },
+    {
+      "file": "c-linearized.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/c-linearized.pdf",
+      "size": 11325,
+      "sha256": "135cee6bd018c06d40c8c46c4a0230b2799adb90f502e214a347b3855039a24e",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0 (QPDF test suite)",
+      "expected": "accept"
+    },
+    {
+      "file": "11-pages.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/11-pages.pdf",
+      "size": 4128,
+      "sha256": "d07b6afc97c1e8699f0640a951a5dc3c2426d7bea7cddf39b4ebb0f1bab1a2a0",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0 (QPDF test suite)",
+      "expected": "accept"
+    },
+    {
+      "file": "pound-in-name.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/pound-in-name.pdf",
+      "size": 944,
+      "sha256": "e83c22921e1f4e484052a0574e272fc2f709dbf19dcac0f230649c98c9239c8c",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0 (QPDF test suite)",
+      "expected": "accept"
+    },
+    {
+      "file": "V4-aes.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/V4-aes.pdf",
+      "size": 16474,
+      "sha256": "1d8a812844b8d8c7ba085a627eb3b7ab52aa651c6143ca07315084220a113240",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0 (QPDF test suite)",
+      "expected": "reject"
+    },
+    {
+      "file": "pages-loop.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/pages-loop.pdf",
+      "size": 1123,
+      "sha256": "4b7edc99b4b06ae39a91dd4cac43d1435b94df0673a45349a37f388313232a4b",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0 (QPDF test suite)",
+      "expected": "reject"
+    },
+    {
+      "file": "bad-xref.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/bad-xref.pdf",
+      "size": 819,
+      "sha256": "5895dfedf978f600b12e29643617dbb111869b60526d957878e349571e1467d1",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0 (QPDF test suite)",
+      "expected": "reject"
+    }
+  ]
+}

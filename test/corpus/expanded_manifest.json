@@ -1,0 +1,3042 @@
+{
+  "schema": 1,
+  "sources": [
+    {
+      "repository": "veraPDF/veraPDF-corpus",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://github.com/veraPDF/veraPDF-corpus/blob/377728596647e40edf16003d68d620773ce96ec5/README.md"
+    },
+    {
+      "repository": "qpdf/qpdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "licenseUrl": "https://github.com/qpdf/qpdf/blob/4eba95899886e851cc41d76886483b347612f2a8/LICENSE.txt"
+    }
+  ],
+  "files": [
+    {
+      "file": "qpdf/compare-for-test/qtest/compare/diff-num-objects.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/compare-for-test/qtest/compare/diff-num-objects.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 882,
+      "sha256": "da6ed864dd7c6b9eb57dc6368fe7c8b1aeaaf63a1c16ce7b886bde4c6fd6706e",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "qpdf/compare-for-test/qtest/compare/diff-object-type.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/compare-for-test/qtest/compare/diff-object-type.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 765,
+      "sha256": "fcb21f9b62288fc3a0d8886866988f40757ac3753cdcf186d813529c7518d2a6",
+      "hostResult": "rejected",
+      "hostStage": "import",
+      "hostReason": "FormatException: Expected PDF dictionary."
+    },
+    {
+      "file": "qpdf/compare-for-test/qtest/compare/zlib-new-id.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/compare-for-test/qtest/compare/zlib-new-id.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 844,
+      "sha256": "924e9ba6ba0461685e92a63233b4abd241f669fca0971aaecfd95640ee5f14f5",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "qpdf/examples/qtest/bookmarks/3.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/examples/qtest/bookmarks/3.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 13,
+      "sha256": "675a23a0c456ba3a7f593ac567deb7891f4bab407da795c43683a8daeef0ac58",
+      "hostResult": "rejected",
+      "hostStage": "codec",
+      "hostReason": "FormatException: Unsupported PDF header."
+    },
+    {
+      "file": "qpdf/examples/qtest/custom-filter/specialized.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/examples/qtest/custom-filter/specialized.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 1750,
+      "sha256": "531793370925393333d8b00ff101608f0023e5805b43e0e5f3396f63c0081462",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "qpdf/examples/qtest/overlay-page/annotations.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/examples/qtest/overlay-page/annotations.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 9648,
+      "sha256": "1604e4175ecbb2183023a54f18b67f1d07c0d9a2ef5bdbac8b0e88b3e54777ab",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "qpdf/examples/qtest/pdf-split-pages/exp2.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/examples/qtest/pdf-split-pages/exp2.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 774,
+      "sha256": "e3499f3d0b5d4bc21fb43673b33099e429cb4bc5876a48445442e88b48a52841",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "qpdf/examples/qtest/qpdfjob-c/in.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/examples/qtest/qpdfjob-c/in.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 751,
+      "sha256": "7eaac358120f00c7ca9fc12d4ef1116abc7915e03209a07da387db5275caab43",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/11-pages.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/11-pages.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 4128,
+      "sha256": "d07b6afc97c1e8699f0640a951a5dc3c2426d7bea7cddf39b4ebb0f1bab1a2a0",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/V4-aes-clearmeta.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/V4-aes-clearmeta.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 16910,
+      "sha256": "43610228275fe86819c9fc4f7106c25c60ea433a0ea7c9ddb58671c7a4c14ece",
+      "hostResult": "rejected",
+      "hostStage": "codec",
+      "hostReason": "FormatException: Encrypted PDFs require a decryption provider."
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/V4.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/V4.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 14781,
+      "sha256": "d82598d67a99b412c19f3a841a23b69bb74c4e4db716ed21f4f61b90ee7d05e7",
+      "hostResult": "rejected",
+      "hostStage": "codec",
+      "hostReason": "FormatException: Encrypted PDFs require a decryption provider."
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/add-attachments-1.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/add-attachments-1.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 2602,
+      "sha256": "2332893b6b30c04d37c976d7d79b80a7fc7c925aae094a93e9bde2f751d8efbd",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/add-contents.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/add-contents.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 1003,
+      "sha256": "3731d78017a65fd17653bc20f71f2a2fed85cde7f9d9ca226310b30b3e9332be",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/annotation-no-resources-out.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/annotation-no-resources-out.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 4016,
+      "sha256": "096ebb946b69f58d16f8a07bc0531ddcf83d7f62fa22f30fd6ad1bf2342994c6",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/annotation-no-resources.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/annotation-no-resources.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 4523,
+      "sha256": "b83b28b6ef3a9012faf236604f5ce28876d80f44f1cbad43516599c68e8b479d",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/appearances-1.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/appearances-1.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 69324,
+      "sha256": "3e913342b2956b0af6fd45ed3e3c13e9950a2df66fbc661129a8e98ae233462d",
+      "hostResult": "rejected",
+      "hostStage": "import",
+      "hostReason": "FormatException: A font without Unicode information needs a character map."
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/bad-data-out.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/bad-data-out.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 797,
+      "sha256": "ad361343262a06bfc3cb55e0d89bc27354a4784832967036c4f155373b362edc",
+      "hostResult": "rejected",
+      "hostStage": "programs",
+      "hostReason": "FormatException: Invalid or excessive LZW stream."
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/bad18.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/bad18.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 778,
+      "sha256": "7ecd13b266de37e9a4d38da4452ba5e35965e967b41456f260a2438934956f58",
+      "hostResult": "rejected",
+      "hostStage": "codec",
+      "hostReason": "FormatException: Expected a PDF token at byte 753."
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/bad19.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/bad19.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 778,
+      "sha256": "21d97e4ae385dc5e5419e938a9ed88bc69f35552542b2ae60fbe12bd6a3496bc",
+      "hostResult": "rejected",
+      "hostStage": "codec",
+      "hostReason": "FormatException: Expected a PDF token at byte 753."
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/bad23.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/bad23.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 778,
+      "sha256": "5836711ed0641a4cb4475b8e82fd45b50435c8e569c7ae2ddac9aa640f540459",
+      "hostResult": "rejected",
+      "hostStage": "codec",
+      "hostReason": "FormatException: Expected a PDF integer."
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/bad25.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/bad25.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 778,
+      "sha256": "6f583c4a78ae48abd51759ee9993509796fa10705a9c6e3fea0425b1f5ef2121",
+      "hostResult": "rejected",
+      "hostStage": "codec",
+      "hostReason": "FormatException: Expected a nonnegative PDF integer."
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/bad28.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/bad28.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 778,
+      "sha256": "edc6d9783cbc05f7241fa8975318b35240b9e3324a11daa23817fdd4d9396731",
+      "hostResult": "rejected",
+      "hostStage": "codec",
+      "hostReason": "FormatException: Expected PDF keyword endobj at byte 401."
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/bad33.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/bad33.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 1014,
+      "sha256": "6bbf8b30856f5fcdb5dd3720f6993b2b7e52100b8f0f8567479b28df7a801a2f",
+      "hostResult": "rejected",
+      "hostStage": "codec",
+      "hostReason": "FormatException: Invalid, cyclic or excessive PDF revision chain."
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/bad34.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/bad34.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 793,
+      "sha256": "b94a2a3b0560a430add0edae572cb8b4119b1c277b1ce4283bfa8895065be18b",
+      "hostResult": "rejected",
+      "hostStage": "codec",
+      "hostReason": "FormatException: PDF xref does not match object header."
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/bad7.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/bad7.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 751,
+      "sha256": "e16ac6bb069896626cece58254d378b959ef43593dbf89d2e12fa68f0a7e59a3",
+      "hostResult": "rejected",
+      "hostStage": "codec",
+      "hostReason": "FormatException: PDF trailer must be a dictionary."
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/bad8.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/bad8.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 968,
+      "sha256": "e01ceb22d5c64daa206c5bdf00e3b525111aaa708255dfcde9618964f1cae33b",
+      "hostResult": "rejected",
+      "hostStage": "codec",
+      "hostReason": "FormatException: Expected a nonnegative PDF integer."
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/badlin1.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/badlin1.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 13103,
+      "sha256": "236e5197c21f3dd1b032951d205156988b788e4ce1e36d16cd17a1c5781a0799",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/broken-lzw.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/broken-lzw.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 1119,
+      "sha256": "cf51252799ff8a7d083760559dc003031f790a4f2caf6f064e8c00b3484e3466",
+      "hostResult": "rejected",
+      "hostStage": "programs",
+      "hostReason": "FormatException: Invalid or excessive LZW stream."
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/c-check-warn-in.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/c-check-warn-in.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 764,
+      "sha256": "e916cf6eecf06586f6dd0ddb567cc384e7de9e4a9023816493b275b1fc44a41b",
+      "hostResult": "rejected",
+      "hostStage": "codec",
+      "hostReason": "FormatException: Invalid, cyclic or excessive PDF revision chain."
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/c-decrypt-with-owner.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/c-decrypt-with-owner.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 9668,
+      "sha256": "1d0491096f792e30f4591756109674efc00910fc11b0f50574c39c524bbf5bfe",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/c-empty.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/c-empty.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 315,
+      "sha256": "059c3cc82cbc7706c6aeeb54da4d3c28e33ce8f284135aa5b0dcfcf835e412d9",
+      "hostResult": "rejected",
+      "hostStage": "import",
+      "hostReason": "FormatException: PDF contains no pages."
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/c-normalized-content.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/c-normalized-content.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 8917,
+      "sha256": "67f8f9ed4df384189f4607636f2d2dbaea59a45bd24ceb91d50ec39e3197852d",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/c-r4.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/c-r4.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 10892,
+      "sha256": "e2fed5c4fd32106eb46b70aec896471d4acda0799c7d9a5d5e590e2411021cf6",
+      "hostResult": "rejected",
+      "hostStage": "codec",
+      "hostReason": "FormatException: Encrypted PDFs require a decryption provider."
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/c-uncompressed-streams.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/c-uncompressed-streams.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 10527,
+      "sha256": "9e68ec529fcce94d6e2a81b462bd366795c56d4510125d0eb0f6c04a1f2132f6",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/collate-odd.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/collate-odd.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 7764,
+      "sha256": "4d3f6176531e9dfac6c4f02aa65e2ffb19e5cb28a46ec814fa9c8a46f1023139",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/compressed-metadata-out-normal.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/compressed-metadata-out-normal.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 14895,
+      "sha256": "52032ffd84844e043b6fbd337049953624778c6e492ce94cbc7825bb5a63c78b",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/damaged-inline-image-out.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/damaged-inline-image-out.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 5558,
+      "sha256": "f3c4f8f03e530e200eb9ae00f0793b8fe670d1494e8a5e675234416deec127f7",
+      "hostResult": "rejected",
+      "hostStage": "import",
+      "hostReason": "ZCodecException: Invalid DEFLATE back-reference distance"
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/damaged-inline-image.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/damaged-inline-image.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 5558,
+      "sha256": "18dae3c4253d30e262da786e7d238305dc2046f1c94d2b566d5589336106084c",
+      "hostResult": "rejected",
+      "hostStage": "programs",
+      "hostReason": "ZCodecException: Invalid DEFLATE back-reference distance"
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/dangling-bad-xref.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/dangling-bad-xref.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 1097,
+      "sha256": "a6cb86b3a588674544eebdd78523e21c870055267c0a54da39275211b1a0ad2e",
+      "hostResult": "rejected",
+      "hostStage": "codec",
+      "hostReason": "FormatException: PDF object offset is outside the file."
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/digitally-signed.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/digitally-signed.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 68846,
+      "sha256": "05e969415b03d9782b0b132f147b86cb42eafddf6176aaf2710334a9cc643c3c",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/direct-pages-fixed.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/direct-pages-fixed.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 968,
+      "sha256": "ae3284b38bcbaad012024364f3e49ff7cea77029896a707ac820e8b5ab8eeb3f",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/empty-decode-parms.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/empty-decode-parms.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 2787,
+      "sha256": "d391a03eeaf34fa0c65e5ffc15a51fec112f83137350dffe7c0c7304ea5cd436",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/empty.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/empty.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 315,
+      "sha256": "b61f62584fed965e7b7e8cfe79b1aa914106fb3714c8e3928a8f57c1e7e0d19a",
+      "hostResult": "rejected",
+      "hostStage": "import",
+      "hostReason": "FormatException: PDF contains no pages."
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/enc-R2,V1,U=view,O=master.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/enc-R2%2CV1%2CU%3Dview%2CO%3Dmaster.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 17134,
+      "sha256": "cbd0396c5af37a326cc829b3a031223accf5ea093119eaaa78bf4a386108ed14",
+      "hostResult": "rejected",
+      "hostStage": "codec",
+      "hostReason": "FormatException: Encrypted PDFs require a decryption provider."
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/enc-R2,V1.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/enc-R2%2CV1.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 17143,
+      "sha256": "d657555453a8933cbfc3fc00d15853ec4d6b03f83eb1941d78a50c424bc9f55e",
+      "hostResult": "rejected",
+      "hostStage": "codec",
+      "hostReason": "FormatException: Encrypted PDFs require a decryption provider."
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/enc-R3,V2,U=view,O=master.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/enc-R3%2CV2%2CU%3Dview%2CO%3Dmaster.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 17139,
+      "sha256": "5c0683d687e2e020fe172b1dcb7c29fe94f67bc40f038fee2391de610053fc16",
+      "hostResult": "rejected",
+      "hostStage": "codec",
+      "hostReason": "FormatException: Encrypted PDFs require a decryption provider."
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/enc-XI-R6,V5,U=view,O=master.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/enc-XI-R6%2CV5%2CU%3Dview%2CO%3Dmaster.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 15670,
+      "sha256": "96b9262bfacf1358c7a68ab46c11563677e858888950237fdac8f3a227210edf",
+      "hostResult": "rejected",
+      "hostStage": "codec",
+      "hostReason": "FormatException: Encrypted PDFs require a decryption provider."
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/enc-XI-R6,V5,U=view,attachments,cleartext-metadata.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/enc-XI-R6%2CV5%2CU%3Dview%2Cattachments%2Ccleartext-metadata.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 22400,
+      "sha256": "d0d7d6d37a4c1e551dabb45532b3b077d973cf8f84ac04d865fd9a5e5fca1d68",
+      "hostResult": "rejected",
+      "hostStage": "codec",
+      "hostReason": "FormatException: Encrypted PDFs require a decryption provider."
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/enc-XI-base.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/enc-XI-base.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 14041,
+      "sha256": "dc7bad1ce643583997845061b81f9609176875dd9872cbbe5ffea9399f60a420",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/eof-terminates-literal.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/eof-terminates-literal.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 1632,
+      "sha256": "4cac96c3fd575e87158a6c5fe99a94243e60a55d767c7f3bdefa5660843ff0e7",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/extensions-adbe.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/extensions-adbe.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 1139,
+      "sha256": "15d9a3e95dc95b49a7d7598f9eaccb2cdb44b2a1cba5dc382eb1a72a0814ed14",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/extensions-none-force-1.8.5.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/extensions-none-force-1.8.5.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 865,
+      "sha256": "e1530273905b45e604e193127b5e8ce7fb82d0b5430264b8691640e9690bd3d2",
+      "hostResult": "rejected",
+      "hostStage": "codec",
+      "hostReason": "FormatException: Unsupported PDF header."
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/field-types.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/field-types.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 66773,
+      "sha256": "94e367a11f60bae31a430d7426d2c9ebd27363191622ed863ff88f3b151191f1",
+      "hostResult": "rejected",
+      "hostStage": "import",
+      "hostReason": "FormatException: A font without Unicode information needs a character map."
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/fields-split-1.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/fields-split-1.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 7221,
+      "sha256": "1058358a1d0d21b5cbf3ce2fdeb01b0f787aeaa2a199d65e1c0d94d3d7146956",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/filter-abbreviation.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/filter-abbreviation.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 743,
+      "sha256": "21176912692cca1f393d97bfff02bd25fe79876810f96af1052f187de50ea9e1",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/form-empty-from-odt.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/form-empty-from-odt.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 54848,
+      "sha256": "599304a4c47fa25155fc732cb9bffe2882ea39894e14f812905c4ec2f5826c14",
+      "hostResult": "rejected",
+      "hostStage": "import",
+      "hostReason": "FormatException: A font without Unicode information needs a character map."
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/form-xobjects-some-resources1-out.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/form-xobjects-some-resources1-out.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 2775,
+      "sha256": "f02fa7f2f698864f82075da78010405ef01f7585cacc56962921c0b82dd1a4e3",
+      "hostResult": "rejected",
+      "hostStage": "import",
+      "hostReason": "FormatException: Expected PDF dictionary."
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/from-scratch-0.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/from-scratch-0.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 772,
+      "sha256": "dd04073c9ac2f5381babdf2c028b8433b998331b97b6323b25bb9d2b33ce4a60",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/global_damaged.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/global_damaged.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 827,
+      "sha256": "132ca5c178aca2e580475dfaf38e46b04c8ffc2a471fa505205ce43ba4847989",
+      "hostResult": "rejected",
+      "hostStage": "codec",
+      "hostReason": "FormatException: Expected a nonnegative PDF integer."
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/good14.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/good14.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 2075,
+      "sha256": "cdb3e5a31cbc0c95591d35202b901ecae77f2979f55fe019c897a234e9446435",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/good4.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/good4.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 819,
+      "sha256": "54516557585201a9d53b0c46565f7f9becd47a758ba52c2739bb76b33fdbcce0",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/i3.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/i3.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 6731,
+      "sha256": "7425bb5d9b2f0e17ef096197ad5b4475f5c23be9cf3363cafdbec7b051d8ac5d",
+      "hostResult": "rejected",
+      "hostStage": "codec",
+      "hostReason": "FormatException: Invalid PDF cross-reference entry."
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/incremental-3.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/incremental-3.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 944,
+      "sha256": "f40a2393e3272a2e037af195570f2339561e1285038cdb501d6881b75c6c7291",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/indirect-filter-out-0.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/indirect-filter-out-0.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 2948,
+      "sha256": "cfbde14d45fed63fe2c21de749a090ef26c8ce0202d129098d26f425e04244db",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/issue-100.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/issue-100.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 1145,
+      "sha256": "b5d0dd490741bc00001803c9bd895b723af1e0aaef6bf3209bcdb2468950c54c",
+      "hostResult": "rejected",
+      "hostStage": "codec",
+      "hostReason": "FormatException: Unsupported PDF header."
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/issue-263.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/issue-263.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 277,
+      "sha256": "eb7b86a9d99f9d4c9466fa577b5f2e1555c33215eb8a6a0b73e0393510bf44ea",
+      "hostResult": "rejected",
+      "hostStage": "codec",
+      "hostReason": "FormatException: Unsupported PDF header."
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/issue-335a.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/issue-335a.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 24974,
+      "sha256": "a15d3d21cf8db90de2123d7a7a998c1ee7a9a939e80c6251d1b8db69cab68e61",
+      "hostResult": "rejected",
+      "hostStage": "codec",
+      "hostReason": "FormatException: Unsupported PDF header."
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/job-json-choice-match.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/job-json-choice-match.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 743,
+      "sha256": "f95a5c811ebaae5c8456f9433fdaacd213a97a06b591fcd640eb94c477a929a7",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/job-json-encrypt-40.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/job-json-encrypt-40.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 1040,
+      "sha256": "afac9a7728e9d248b5e326b7041d0f7bb2fcfa1c94c8314e834fcc39ae5d20c6",
+      "hostResult": "rejected",
+      "hostStage": "codec",
+      "hostReason": "FormatException: Encrypted PDFs require a decryption provider."
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/json-changed-form-fields-and-annotations.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/json-changed-form-fields-and-annotations.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 10679,
+      "sha256": "9d93066b2f49e4e0de08c28cdad5f73e350806171931a29c1630a5fe50ee0200",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/lin0.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/lin0.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 763,
+      "sha256": "c16e6eaf7d26ae388cac9a262224981394dc590f940bd2e3bb926eba2f2132a2",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/lin2.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/lin2.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 13103,
+      "sha256": "6280532d918027d9aacbaa4691110ef105933dce36dc636521c815f29ff13c27",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/lin4.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/lin4.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 13055,
+      "sha256": "573af46ffd2e0257b8d8b52f4b5d41a44fc0ebe53ab0e6edc5c07b8b24827673",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/lin5.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/lin5.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 27464,
+      "sha256": "4b716274089f173a1e2d826523e6e616182a1cafb267eff1e2bffa193440054b",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/lin8.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/lin8.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 24875,
+      "sha256": "c0cd3d8053b2ec760cbc3b781773bfeb2abd2bc9e44592d06e660e2fdb8b216f",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/linearize-duplicate-page.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/linearize-duplicate-page.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 1843,
+      "sha256": "03ff9acff4ca3381823dfab46741bcdc507829fc101b80291f5cd3e430463463",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/link-annots.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/link-annots.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 7237,
+      "sha256": "748632d3943742e1a0f585ab4da1e4b0ccc6893c9db396352e0dbce5221a19f4",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/long-id.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/long-id.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 869,
+      "sha256": "62575a07e68db045dc53324d47b5cd7b4ff1117a6ece674e9bab74d436c71304",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/manual-appearances-screen-out.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/manual-appearances-screen-out.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 23019,
+      "sha256": "8e3a8288a2042795bc8ba621b2f3ed500485591c1c0d5bb58384f4f11601abec",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/manual-appearances.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/manual-appearances.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 30522,
+      "sha256": "d1dae35a0e90d3f0fb71a88d7c33b94cb1ca5cacd0c009d89bd8e21ca03a37cf",
+      "hostResult": "rejected",
+      "hostStage": "import",
+      "hostReason": "FormatException: Fixed-screen annotation placement is not supported."
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/many-nulls.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/many-nulls.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 3579,
+      "sha256": "fbe24f64015f11af99dba35bd15b55096610d2e7ee80646dd6adec4844a0cf8f",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/metadata-crypt-filter.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/metadata-crypt-filter.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 15229,
+      "sha256": "58b8a55ced536b05700d2aac856011e269d38ae0aef2d21e7fa2aa6d5bdcf07b",
+      "hostResult": "rejected",
+      "hostStage": "codec",
+      "hostReason": "FormatException: Encrypted PDFs require a decryption provider."
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/minimal-dangling-out.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/minimal-dangling-out.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 853,
+      "sha256": "dc245358ba98aa557b9ca9be44e1936f967e6cea525624bd012dab3055181d0e",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/minimal.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/minimal.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 763,
+      "sha256": "c16e6eaf7d26ae388cac9a262224981394dc590f940bd2e3bb926eba2f2132a2",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/need-appearances.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/need-appearances.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 68690,
+      "sha256": "5d9bddb63bcb8efea456b28f49aaaa626fc022c13a274115ff0c382fe80c3a62",
+      "hostResult": "rejected",
+      "hostStage": "import",
+      "hostReason": "FormatException: A font without Unicode information needs a character map."
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/nested-form-xobjects-inline-images-ii-all.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/nested-form-xobjects-inline-images-ii-all.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 5639,
+      "sha256": "2186a4fb0db2a3339b20faa99d8f93b7f6bbcdea8536ea2118d79282d4b80ded",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/nested-form-xobjects-inline-images.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/nested-form-xobjects-inline-images.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 2841,
+      "sha256": "8a8c86f4d0cae7a43bd8d7280283b4671b392d6dd0d43486fd2c2b0de815725f",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/newline-before-endstream-qdf.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/newline-before-endstream-qdf.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 2831,
+      "sha256": "2150d422b11e7d5e8e954860f8c067a192a5a2e41adee36a996f6091f7d3c547",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/obj0.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/obj0.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 859,
+      "sha256": "9408227f3c62f25bb6811fcb4a2ea1d46d11c664143ca74b21c25bd2061b1a42",
+      "hostResult": "rejected",
+      "hostStage": "codec",
+      "hostReason": "FormatException: Expected a nonnegative PDF integer."
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/object-types.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/object-types.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 1127,
+      "sha256": "cf6523ce12809ff8b46d7f5fb71bd0e904b11eb7fe026655a1c187f576ea9d3b",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/outlines-split-11-20.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/outlines-split-11-20.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 8803,
+      "sha256": "43d1f94aa3ad85c51a65ace6136437eb504688d2ca8f07182bf5c7972a55e341",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/outlines-with-loop.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/outlines-with-loop.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 16217,
+      "sha256": "c9e8c7c53465471808f073b3837cda8a009cc2826c70b410ccc942f4c338cf60",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/p1-a.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/p1-a.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 946,
+      "sha256": "cd3707d5ae9ff31b5055793c9d8ce14d67cc063d4462645774385e31c2096f4f",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/page-labels-no-zero.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/page-labels-no-zero.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 13683,
+      "sha256": "4d9a388d280712d4417f37c126ac6d5213cd01e7b835ac0789f8ed31448ea6b9",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/pages-is-page.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/pages-is-page.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 763,
+      "sha256": "62b235f4c71fc6d41638e7d74b3c5400734881e4a848e4cebca925e253eb27be",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/qpdfjob-ctest-wide.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/qpdfjob-ctest-wide.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 799,
+      "sha256": "9a8fca44be30892d864bd1a88002b760de878930821dba1925929f58b446259d",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/qpdfjob-ctest1.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/qpdfjob-ctest1.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 799,
+      "sha256": "00670d81c04f29231705d29f39377a166d344f83e01622d58b11443f03601c91",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/qpdfjob-ctest4.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/qpdfjob-ctest4.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 799,
+      "sha256": "00670d81c04f29231705d29f39377a166d344f83e01622d58b11443f03601c91",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/recover-xref-stream.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/recover-xref-stream.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 3817,
+      "sha256": "9a78166f8d25c467ac45a39113728043c2a1595e74a39bb697d29565a0e5b2ac",
+      "hostResult": "rejected",
+      "hostStage": "codec",
+      "hostReason": "FormatException: Unexpected data after PDF EOF."
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/remove-multiple-attachments.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/remove-multiple-attachments.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 1341,
+      "sha256": "23c3cbe8773201edee5a79f878ff5df9a5d27343644df14a4f0149db671b6dd9",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/remove-structure.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/remove-structure.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 1336,
+      "sha256": "0c5bc68ca380c30503608d915a74da7400c867be91862fa2f27536ec133664ea",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/replace-with-stream-updated.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/replace-with-stream-updated.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 1940,
+      "sha256": "59b6e6a9ad5304283f682c450f458b80390b29a3dc724258166bc3a23d03d4d5",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/resolved-appearance-conflicts-generate.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/resolved-appearance-conflicts-generate.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 6900,
+      "sha256": "37a15cc223f6b060e494b97d944e5ffd97a4eeb0e7fac12c245bd454763afb4a",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/resource-from-dr.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/resource-from-dr.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 68902,
+      "sha256": "a277b1b65e9bf69b2afb9a6bb79eb867383f77dd0eaff63d9da5c0652f1c8d97",
+      "hostResult": "rejected",
+      "hostStage": "import",
+      "hostReason": "FormatException: A font without Unicode information needs a character map."
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/sample-form-out.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/sample-form-out.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 58121,
+      "sha256": "c4d29833f8b2525d423dfff212c323b2b40fd8b4aedf2420c5077b2581d2c795",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/shared-font-xobject-split-2.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/shared-font-xobject-split-2.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 3777,
+      "sha256": "45b8f15c6678a656ceec8b56a8db76ceb546e240cfc17357610fcacfebcfec62",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/shared-form-images.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/shared-form-images.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 25623,
+      "sha256": "42c4999f2aa81df1fb97ab308ddf12bd35039f1944db5e1b2dfca4d036f5d3f7",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/shared-form-split-1.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/shared-form-split-1.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 4840,
+      "sha256": "8a18d6afeeca9a79716ad01896aff8a65adec7a7ef9c67a3e1760000e98d7e00",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/shared-form-split-4.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/shared-form-split-4.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 4483,
+      "sha256": "10dbe3182b5c5c81659785ef70efe6e33694dc0c546c76bb7dfa9e521bafd16a",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/shared-form-split-6.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/shared-form-split-6.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 4438,
+      "sha256": "3902b66deb6d15ffc3bd7b2f543cdf4415aa100c0616e33937e813db8ae62090",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/shared-images-pages-out.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/shared-images-pages-out.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 14196,
+      "sha256": "d95eb09fb72caa9f554165e1c9e47d5b87e843e587a2a669db5420b29fbcbc4e",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/short-id.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/short-id.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 825,
+      "sha256": "ddeaf523debdaa14b7f6771f1750fc76a9e05cfafa3dd3c8f87aa9ecbf705cab",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/split-content-stream.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/split-content-stream.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 907,
+      "sha256": "0b4c41ab4069699c23b122b1f2e428ccb2da71130b4b316f1c5f13c25548054f",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/split-nntree.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/split-nntree.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 2203,
+      "sha256": "51eb17361b34ef96973f658632e9415893b4502b175e675cf6ac080f07084e9b",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/stream-data.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/stream-data.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 1125,
+      "sha256": "640f049f9d4993007f92d6012d4a248008f1d4678d39d7cb03c33d18abdd7f6f",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/tiff-predictor.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/tiff-predictor.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 1331,
+      "sha256": "7c7dadd5bd9266754d8b6820859185428ea8ee2f78c8699aedc5ff09e67c9e19",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/tokenize-content-streams.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/tokenize-content-streams.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 1575,
+      "sha256": "5d7c5309b69c5fb90b8f3f4bf4cd77fed7ffdecdc93da81ec61889352cb98537",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/unreferenced-dropped.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/unreferenced-dropped.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 799,
+      "sha256": "a4c11309b36f49af5a5ddd71e77ee7bcf32e506fd76f8827af932d7accb4b726",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/uo-7.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/uo-7.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 20600,
+      "sha256": "4b5a75e37a451705209f3223bf4bebd72d933a4409c4c9c304b40d0a3b3932d7",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "qpdf/qpdf/qtest/qpdf/xref-compressed-in-compressed.pdf",
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/xref-compressed-in-compressed.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 11325,
+      "sha256": "c99080e8d936eeb40a08d7e596f4c10b959a245fe3cb5ddb971eb7f145baa4c2",
+      "hostResult": "rejected",
+      "hostStage": "codec",
+      "hostReason": "FormatException: PDF object stream must be uncompressed."
+    },
+    {
+      "file": "veraPDF/ISO 32000-1/veraPDF test suite 6-2-3-2-t01-fail-b.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/ISO%2032000-1/veraPDF%20test%20suite%206-2-3-2-t01-fail-b.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3912,
+      "sha256": "058a897a10bbd4a3440740ecfcfad63c94952ca7b5aba2e9eccd218f97319042",
+      "hostResult": "rejected",
+      "hostStage": "import",
+      "hostReason": "FormatException: PDF ICC component count disagrees with its profile."
+    },
+    {
+      "file": "veraPDF/ISO 32000-2/veraPDF test suite 6-1-3-t04-fail-b.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/ISO%2032000-2/veraPDF%20test%20suite%206-1-3-t04-fail-b.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3182,
+      "sha256": "08ec23ebcc0598f1235d2ca10df49af364ea371c1c2105ed6079c65354233586",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-1a/6.3 Fonts/6.3.8 Unicode character maps/veraPDF test suite 6-3-8-t01-fail-b.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-1a/6.3%20Fonts/6.3.8%20Unicode%20character%20maps/veraPDF%20test%20suite%206-3-8-t01-fail-b.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 12254,
+      "sha256": "ba69bb60c9c5aff3f5bf3c694bd0c015b2620484eefc46933198ac2ccd841826",
+      "hostResult": "rejected",
+      "hostStage": "import",
+      "hostReason": "FormatException: Unsupported ICC device colour space \"gray\""
+    },
+    {
+      "file": "veraPDF/PDF_A-1a/6.3 Fonts/6.3.8 Unicode character maps/veraPDF test suite 6-3-8-t01-pass-j.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-1a/6.3%20Fonts/6.3.8%20Unicode%20character%20maps/veraPDF%20test%20suite%206-3-8-t01-pass-j.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 25625,
+      "sha256": "c030cabbc151c8ce06cae09969fc3d0e2ac54738f0d80c6396d559e92c01fd4e",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-1a/6.8 Logical structure/6.8.3 Artifacts/6.8.3.4 Structure types/veraPDF test suite 6-8-3-4-t01-fail-a.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-1a/6.8%20Logical%20structure/6.8.3%20Artifacts/6.8.3.4%20Structure%20types/veraPDF%20test%20suite%206-8-3-4-t01-fail-a.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3446,
+      "sha256": "9f381a555f61b525ff4bdfdc441152b7ad07e31796d56c23e3461b6bdcffa230",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-1b/6.1 File structure/6.1.12 Implementation limits/veraPDF test suite 6-1-12-t02-pass-h.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-1b/6.1%20File%20structure/6.1.12%20Implementation%20limits/veraPDF%20test%20suite%206-1-12-t02-pass-h.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 49991,
+      "sha256": "d6347bd5d5035966608fdb3d0b41318ad37c4eb09a0c3e3d0bad292a0b8c6bf9",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-1b/6.1 File structure/6.1.12 Implementation limits/veraPDF test suite 6-1-12-t02-pass-i.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-1b/6.1%20File%20structure/6.1.12%20Implementation%20limits/veraPDF%20test%20suite%206-1-12-t02-pass-i.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 49894,
+      "sha256": "1a52521fb88af59b5169b36138117707fa2a3f6600df8d71b906b4be8f668283",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-1b/6.1 File structure/6.1.12 Implementation limits/veraPDF test suite 6-1-12-t10-fail-a.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-1b/6.1%20File%20structure/6.1.12%20Implementation%20limits/veraPDF%20test%20suite%206-1-12-t10-fail-a.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 12192,
+      "sha256": "a36bf24d45df54b753341173254ccfebf3c596a8d0eb5479ca855865fbe71d86",
+      "hostResult": "rejected",
+      "hostStage": "import",
+      "hostReason": "FormatException: Unsupported ICC device colour space \"gray\""
+    },
+    {
+      "file": "veraPDF/PDF_A-1b/6.1 File structure/6.1.3 File trailer/veraPDF test suite 6-1-3-t01-fail-a.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-1b/6.1%20File%20structure/6.1.3%20File%20trailer/veraPDF%20test%20suite%206-1-3-t01-fail-a.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 5670,
+      "sha256": "92f4748a7a630daf67718422bd66d699805eacd4ae88cfe9ba15cc508303d7cd",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-1b/6.1 File structure/6.1.3 File trailer/veraPDF test suite 6-1-3-t02-fail-a.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-1b/6.1%20File%20structure/6.1.3%20File%20trailer/veraPDF%20test%20suite%206-1-3-t02-fail-a.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 8548,
+      "sha256": "12ee8033ff9bd11948b557e013aebb7d4e46a035521343b09191c4c62982e930",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-1b/6.1 File structure/6.1.5 Document information dictionary/veraPDF test suite 6-1-5-t01-fail-g.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-1b/6.1%20File%20structure/6.1.5%20Document%20information%20dictionary/veraPDF%20test%20suite%206-1-5-t01-fail-g.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 10077,
+      "sha256": "da8eb74b0b37eec182ee84e469b48ab0f0739473184e7c51186c811e9b3d41d6",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-1b/6.1 File structure/6.1.5 Document information dictionary/veraPDF test suite 6-1-5-t01-fail-i.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-1b/6.1%20File%20structure/6.1.5%20Document%20information%20dictionary/veraPDF%20test%20suite%206-1-5-t01-fail-i.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 10220,
+      "sha256": "e4e039c8f89ca09268d20ea241189d3cf1dee6fbb0162456dad34024f8e3603f",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-1b/6.2 Graphics/6.2.3.3 Uncalibrated color space/veraPDF test suite 6-2-3-3-t03-pass-e.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-1b/6.2%20Graphics/6.2.3.3%20Uncalibrated%20color%20space/veraPDF%20test%20suite%206-2-3-3-t03-pass-e.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 392267,
+      "sha256": "b455191e26fa5bf2d2bdb258b9fe1847a6fdac70e49d8063045d1462d3275181",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-1b/6.3 Fonts/6.3.5 Font subsets/6-3-5-t03-fail-c.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-1b/6.3%20Fonts/6.3.5%20Font%20subsets/6-3-5-t03-fail-c.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 17019,
+      "sha256": "344aa1aa4ad3ece393ed0ea49bfcaa09edb4f0537e235223d13e1d249237a782",
+      "hostResult": "rejected",
+      "hostStage": "import",
+      "hostReason": "FormatException: Unsupported ICC device colour space \"gray\""
+    },
+    {
+      "file": "veraPDF/PDF_A-1b/6.7 Metadata/6.7.11 Version and conformance level identification/veraPDF test suite 6-7-11-t02-fail-a.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-1b/6.7%20Metadata/6.7.11%20Version%20and%20conformance%20level%20identification/veraPDF%20test%20suite%206-7-11-t02-fail-a.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3145,
+      "sha256": "a04da1cf4e477cb407658d7cefd75c68958c71bb14544ee86dacbf612c282691",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-1b/6.7 Metadata/6.7.2 Properties/veraPDF test suite 6-7-2-t03-fail-f.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-1b/6.7%20Metadata/6.7.2%20Properties/veraPDF%20test%20suite%206-7-2-t03-fail-f.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3563,
+      "sha256": "e70d0f90d886d86f330e5e528f1feea07f01e88311e3cfb3c04085530d39d843",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-1b/6.7 Metadata/6.7.2 Properties/veraPDF test suite 6-7-2-t04-fail-c.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-1b/6.7%20Metadata/6.7.2%20Properties/veraPDF%20test%20suite%206-7-2-t04-fail-c.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3417,
+      "sha256": "9c6fd9c75e603b75753cb92ba57fc2d90f56f3ee87a701503af3eda9967d82cf",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-1b/6.7 Metadata/6.7.2 Properties/veraPDF test suite 6-7-2-t06-fail-b.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-1b/6.7%20Metadata/6.7.2%20Properties/veraPDF%20test%20suite%206-7-2-t06-fail-b.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3588,
+      "sha256": "acf5ab953f0c11a29d413a869666f6a2ba404cdefe41707624bd58ac493817ca",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-1b/6.7 Metadata/6.7.2 Properties/veraPDF test suite 6-7-2-t06-fail-l.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-1b/6.7%20Metadata/6.7.2%20Properties/veraPDF%20test%20suite%206-7-2-t06-fail-l.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3603,
+      "sha256": "3e91b7d2190d33aa95dc58d040b607e1b9f1e1364afd92333cf075bc2a564321",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-1b/6.7 Metadata/6.7.2 Properties/veraPDF test suite 6-7-2-t06-fail-p.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-1b/6.7%20Metadata/6.7.2%20Properties/veraPDF%20test%20suite%206-7-2-t06-fail-p.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3375,
+      "sha256": "5449e64224fa7df5b0e3ff59b195eb991b25b3f167dd89030bd02b281e6b83c0",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-1b/6.7 Metadata/6.7.2 Properties/veraPDF test suite 6-7-2-t06-pass-c.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-1b/6.7%20Metadata/6.7.2%20Properties/veraPDF%20test%20suite%206-7-2-t06-pass-c.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3345,
+      "sha256": "c0071e1a610d7333feb2323efff4f600347c5c2f90e1426b489cf892b3cf0b23",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-1b/6.7 Metadata/6.7.2 Properties/veraPDF test suite 6-7-2-t07-fail-h.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-1b/6.7%20Metadata/6.7.2%20Properties/veraPDF%20test%20suite%206-7-2-t07-fail-h.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3608,
+      "sha256": "a57b25922a304cdd5f7944a84ff9334df6ef9349ab07136c63bb50df8279c597",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-1b/6.7 Metadata/6.7.2 Properties/veraPDF test suite 6-7-2-t07-pass-i.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-1b/6.7%20Metadata/6.7.2%20Properties/veraPDF%20test%20suite%206-7-2-t07-pass-i.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 31741,
+      "sha256": "f519942ab0a21df3518209fb936e2996fbea87c106fcbc567609e6807d3b8c77",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-1b/6.7 Metadata/6.7.2 Properties/veraPDF test suite 6-7-2-t08-pass-c.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-1b/6.7%20Metadata/6.7.2%20Properties/veraPDF%20test%20suite%206-7-2-t08-pass-c.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3592,
+      "sha256": "289e8f17129aa2b3c9847df9462a207aa05072090cdf0eb7ec2a4fd62af01e8c",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-1b/6.7 Metadata/6.7.2 Properties/veraPDF test suite 6-7-2-t08-pass-e.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-1b/6.7%20Metadata/6.7.2%20Properties/veraPDF%20test%20suite%206-7-2-t08-pass-e.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3544,
+      "sha256": "14b325fac05905f38eaf3b530c62f11067e6dedc267add235f5abdf3706d0113",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-1b/6.7 Metadata/6.7.2 Properties/veraPDF test suite 6-7-2-t09-fail-g.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-1b/6.7%20Metadata/6.7.2%20Properties/veraPDF%20test%20suite%206-7-2-t09-fail-g.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3631,
+      "sha256": "e40243fc6c0572b074254dec521846ee2cb8e332cd1e0fedc52ef30c92e7c8c2",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-1b/6.7 Metadata/6.7.2 Properties/veraPDF test suite 6-7-2-t09-fail-q.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-1b/6.7%20Metadata/6.7.2%20Properties/veraPDF%20test%20suite%206-7-2-t09-fail-q.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3819,
+      "sha256": "32aa9b247ad4c4c3f61358f7ac054e52fb422a107b50ec4d18b3efab910bc603",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-1b/6.7 Metadata/6.7.2 Properties/veraPDF test suite 6-7-2-t09-pass-e.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-1b/6.7%20Metadata/6.7.2%20Properties/veraPDF%20test%20suite%206-7-2-t09-pass-e.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3623,
+      "sha256": "2815f19c21d92247af7cc7f259669495725aced8241cb57e80f5cdee015926de",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-1b/6.7 Metadata/6.7.2 Properties/veraPDF test suite 6-7-2-t09-pass-f.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-1b/6.7%20Metadata/6.7.2%20Properties/veraPDF%20test%20suite%206-7-2-t09-pass-f.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3514,
+      "sha256": "6be1e4cf8e9b9054e43cc25e3524aabcba42855a5290b4e9a49a02e05dd915d6",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-1b/6.7 Metadata/6.7.2 Properties/veraPDF test suite 6-7-2-t09-pass-g.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-1b/6.7%20Metadata/6.7.2%20Properties/veraPDF%20test%20suite%206-7-2-t09-pass-g.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3525,
+      "sha256": "42e040115d920ad6b7d01850a6a0fc362992d76c0448cfd57db4bdb8376722c0",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-1b/6.7 Metadata/6.7.2 Properties/veraPDF test suite 6-7-2-t13-fail-h.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-1b/6.7%20Metadata/6.7.2%20Properties/veraPDF%20test%20suite%206-7-2-t13-fail-h.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3610,
+      "sha256": "6e080be64a2b3e9df5e28808396f7a3c753893810b7dea132b4ca609e13cc7de",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-1b/6.7 Metadata/6.7.2 Properties/veraPDF test suite 6-7-2-t13-pass-m.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-1b/6.7%20Metadata/6.7.2%20Properties/veraPDF%20test%20suite%206-7-2-t13-pass-m.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3557,
+      "sha256": "2bb5b9385fe382529e55e16c96b13458c545f72df618e4289f97b34f3cbebe8a",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-1b/6.7 Metadata/6.7.2 Properties/veraPDF test suite 6-7-2-t14-fail-n.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-1b/6.7%20Metadata/6.7.2%20Properties/veraPDF%20test%20suite%206-7-2-t14-fail-n.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 21260,
+      "sha256": "b2b372dc59eebdfbd4f5653fdbc15c7c2d7b6ab152dc9566d8f8aca738e505e4",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-1b/6.7 Metadata/6.7.2 Properties/veraPDF test suite 6-7-2-t14-fail-o.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-1b/6.7%20Metadata/6.7.2%20Properties/veraPDF%20test%20suite%206-7-2-t14-fail-o.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3640,
+      "sha256": "1fd2680933421b47f5f01baf6f91250371c5d1d8dd57657250c8f704ba388e50",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-1b/6.7 Metadata/6.7.2 Properties/veraPDF test suite 6-7-2-t14-pass-d.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-1b/6.7%20Metadata/6.7.2%20Properties/veraPDF%20test%20suite%206-7-2-t14-pass-d.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3496,
+      "sha256": "570131395e76eac1d0bed6f78ff7864caca072f9c6365477f2bd0c040b5e8acf",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-1b/6.7 Metadata/6.7.2 Properties/veraPDF test suite 6-7-2-t14-pass-s.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-1b/6.7%20Metadata/6.7.2%20Properties/veraPDF%20test%20suite%206-7-2-t14-pass-s.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3511,
+      "sha256": "ee87f83c5eb7b106f7f0c69ef8f09261869e67782851c12d7e3f5d72f59bdbee",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-1b/6.7 Metadata/6.7.2 Properties/veraPDF test suite 6-7-2-t15-fail-p.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-1b/6.7%20Metadata/6.7.2%20Properties/veraPDF%20test%20suite%206-7-2-t15-fail-p.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3569,
+      "sha256": "9fe32b8692779f068673d3f2bb3e565bcdf8ccf2831b307604796f28c9bc96c2",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-1b/6.7 Metadata/6.7.2 Properties/veraPDF test suite 6-7-2-t15-fail-u.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-1b/6.7%20Metadata/6.7.2%20Properties/veraPDF%20test%20suite%206-7-2-t15-fail-u.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3623,
+      "sha256": "81f523d4fa0984c586caec209ee95fea14ef300c2ef4d8c8aa876302f592ffdc",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-1b/6.7 Metadata/6.7.2 Properties/veraPDF test suite 6-7-2-t15-pass-f.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-1b/6.7%20Metadata/6.7.2%20Properties/veraPDF%20test%20suite%206-7-2-t15-pass-f.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3519,
+      "sha256": "cdfd69ea7445a2d666aa5cce4d9185fdc7be5b61935ddcd15186e924f92ab46d",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-1b/6.7 Metadata/6.7.2 Properties/veraPDF test suite 6-7-2-t15-pass-i.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-1b/6.7%20Metadata/6.7.2%20Properties/veraPDF%20test%20suite%206-7-2-t15-pass-i.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3691,
+      "sha256": "7c07d3ee17529f100aa6e37f78a844c375e528f5ca9f1ee8edd0fdcd59f9d511",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-1b/6.7 Metadata/6.7.2 Properties/veraPDF test suite 6-7-2-t15-pass-w.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-1b/6.7%20Metadata/6.7.2%20Properties/veraPDF%20test%20suite%206-7-2-t15-pass-w.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3525,
+      "sha256": "9fbfde8e1378b64c09d2868c07e0e65a2f3ef22ff9eefc836869c579ea73592b",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-1b/6.7 Metadata/6.7.2 Properties/veraPDF test suite 6-7-2-t16-fail-j.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-1b/6.7%20Metadata/6.7.2%20Properties/veraPDF%20test%20suite%206-7-2-t16-fail-j.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3558,
+      "sha256": "784d34ee2a4d565b12ddc8b422fdde23b22388c2a567f4bec6c3d5b8f17440f1",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-1b/6.7 Metadata/6.7.2 Properties/veraPDF test suite 6-7-2-t16-fail-m.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-1b/6.7%20Metadata/6.7.2%20Properties/veraPDF%20test%20suite%206-7-2-t16-fail-m.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3564,
+      "sha256": "4eaeb6bc99e0a1b7a7d3234fdfcea809c3821d8cbc5470830d9505f65c6bcec4",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-1b/6.7 Metadata/6.7.2 Properties/veraPDF test suite 6-7-2-t16-fail-p.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-1b/6.7%20Metadata/6.7.2%20Properties/veraPDF%20test%20suite%206-7-2-t16-fail-p.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3561,
+      "sha256": "83cc1a7f0f3e3225147aff6c5ec6f9d683c4402037d7b2d4fff58689075c7eb8",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-1b/6.7 Metadata/6.7.2 Properties/veraPDF test suite 6-7-2-t16-pass-d.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-1b/6.7%20Metadata/6.7.2%20Properties/veraPDF%20test%20suite%206-7-2-t16-pass-d.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3608,
+      "sha256": "fc0f08cd5a5feb83e687b0ac377c1d52df112bb1458b91f13a9ce1f33b1c067c",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-1b/6.7 Metadata/6.7.2 Properties/veraPDF test suite 6-7-2-t16-pass-s.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-1b/6.7%20Metadata/6.7.2%20Properties/veraPDF%20test%20suite%206-7-2-t16-pass-s.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3508,
+      "sha256": "ebb47e4d0de54608df8eadd0af16ece91102db8dc75b0634ea89efd3f47743b2",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-1b/6.7 Metadata/6.7.2 Properties/veraPDF test suite 6-7-2-t17-fail-u.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-1b/6.7%20Metadata/6.7.2%20Properties/veraPDF%20test%20suite%206-7-2-t17-fail-u.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3627,
+      "sha256": "2af13123a032f4b1a56e649dcfb6a3aefa1ad20d50e39e79557432d3013f7852",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-1b/6.7 Metadata/6.7.2 Properties/veraPDF test suite 6-7-2-t17-pass-n.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-1b/6.7%20Metadata/6.7.2%20Properties/veraPDF%20test%20suite%206-7-2-t17-pass-n.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3505,
+      "sha256": "4a1c0077230f873b9e1accb7efb3f9fe72cd34a3d6dda1f1ae0d14094f339492",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-1b/6.7 Metadata/6.7.2 Properties/veraPDF test suite 6-7-2-t17-pass-o.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-1b/6.7%20Metadata/6.7.2%20Properties/veraPDF%20test%20suite%206-7-2-t17-pass-o.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3499,
+      "sha256": "e64e8848a3cfa10cc1e92e01e464e87dbe24fdf0542bf634a0d31a12b24d3780",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-1b/6.7 Metadata/6.7.2 Properties/veraPDF test suite 6-7-2-t18-fail-a.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-1b/6.7%20Metadata/6.7.2%20Properties/veraPDF%20test%20suite%206-7-2-t18-fail-a.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3641,
+      "sha256": "cc15105f3fad126695242c4115b9cd1d6bc437a26c3d3189bbad5d045841eacd",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-1b/6.7 Metadata/6.7.9 Validation/veraPDF test suite 6-7-9-t01-pass-a.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-1b/6.7%20Metadata/6.7.9%20Validation/veraPDF%20test%20suite%206-7-9-t01-pass-a.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3346,
+      "sha256": "7f9322f14cdc5f6634865b2eb38c2acd3d5861d0a43c0a99b59c087e7920e9ff",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-1b/6.7 Metadata/6.7.9 Validation/veraPDF test suite 6-7-9-t04-pass-r.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-1b/6.7%20Metadata/6.7.9%20Validation/veraPDF%20test%20suite%206-7-9-t04-pass-r.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 5999,
+      "sha256": "ceda3e991e4e9e72a10cd1b9fc0cd91dcf437c6b6a78ab46635f01a61b97a601",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-2a/6.7 Logical structure/6.7.4 Natural language specification/veraPDF test suite 6-7-4-t01-pass-c.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-2a/6.7%20Logical%20structure/6.7.4%20Natural%20language%20specification/veraPDF%20test%20suite%206-7-4-t01-pass-c.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 18078,
+      "sha256": "776258d37588dfe8bca1d6a7fe3f2d3f3bfdb07171cfd13ea747a46a4949a4fa",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-2b/6.1 File structure/6.1.12 Permissions/veraPDF test suite 6-1-12-t02-pass-a.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-2b/6.1%20File%20structure/6.1.12%20Permissions/veraPDF%20test%20suite%206-1-12-t02-pass-a.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 11516,
+      "sha256": "072b4eb93c38ab1f50875b4163719ede16ee93def87ad32290a599ce52f92017",
+      "hostResult": "rejected",
+      "hostStage": "import",
+      "hostReason": "FormatException: Visible annotations without appearance streams require an annotation appearance generator."
+    },
+    {
+      "file": "veraPDF/PDF_A-2b/6.1 File structure/6.1.13 Implementation limits/veraPDF test suite 6-1-13-t01-fail-c.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-2b/6.1%20File%20structure/6.1.13%20Implementation%20limits/veraPDF%20test%20suite%206-1-13-t01-fail-c.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 9724,
+      "sha256": "384044f87b513d851b4dcc290f3f30e33181769c842c7888d2f48eb55d68f340",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-2b/6.1 File structure/6.1.7.1 General/veraPDF test suite 6-1-7-1-t01-fail-b.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-2b/6.1%20File%20structure/6.1.7.1%20General/veraPDF%20test%20suite%206-1-7-1-t01-fail-b.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 9542,
+      "sha256": "1741431aebe3dee8a579e6174207d11aabce91a7ccfd8f4a026fb7cb7f228fdb",
+      "hostResult": "rejected",
+      "hostStage": "codec",
+      "hostReason": "FormatException: PDF stream requires an end-of-line marker."
+    },
+    {
+      "file": "veraPDF/PDF_A-2b/6.2 Graphics/6.2.10 Transparency/veraPDF test suite 6-2-10-t01-fail-d.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-2b/6.2%20Graphics/6.2.10%20Transparency/veraPDF%20test%20suite%206-2-10-t01-fail-d.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3163,
+      "sha256": "45a43df40d169b8366e60f6d4136eba457e657f7d2e252370daeb2348859a765",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-2b/6.2 Graphics/6.2.10 Transparency/veraPDF test suite 6-2-10-t01-fail-f.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-2b/6.2%20Graphics/6.2.10%20Transparency/veraPDF%20test%20suite%206-2-10-t01-fail-f.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 388655,
+      "sha256": "a3dc0cdba58446b8ddeef4f8a99bcab9edc7e108d9ea79daf6e43bea1493ccbe",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-2b/6.2 Graphics/6.2.10 Transparency/veraPDF test suite 6-2-10-t03-fail-e.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-2b/6.2%20Graphics/6.2.10%20Transparency/veraPDF%20test%20suite%206-2-10-t03-fail-e.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3382,
+      "sha256": "7cb778b8706554df53992aa59766afd533d55075b76fc00bb21a476c85e31673",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-2b/6.2 Graphics/6.2.10 Transparency/veraPDF test suite 6-2-10-t03-fail-g.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-2b/6.2%20Graphics/6.2.10%20Transparency/veraPDF%20test%20suite%206-2-10-t03-fail-g.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3871,
+      "sha256": "019f54c44eeb72e3f5f00191e1755e5f3ca8e390c5e866c2c9f82aa3dcac550d",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-2b/6.2 Graphics/6.2.10 Transparency/veraPDF test suite 6-2-10-t04-fail-a.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-2b/6.2%20Graphics/6.2.10%20Transparency/veraPDF%20test%20suite%206-2-10-t04-fail-a.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3375,
+      "sha256": "8255e1c39f0b58154957d39dc2f797c6210abeb4e1b789f7a689cb84d012333d",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-2b/6.2 Graphics/6.2.10 Transparency/veraPDF test suite 6-2-10-t04-fail-e.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-2b/6.2%20Graphics/6.2.10%20Transparency/veraPDF%20test%20suite%206-2-10-t04-fail-e.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3478,
+      "sha256": "266f411eb946902e4d7200b2f38911a00997832d082ea8bbe7ee6de1df8f0a77",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-2b/6.2 Graphics/6.2.10 Transparency/veraPDF test suite 6-2-10-t07-pass-a.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-2b/6.2%20Graphics/6.2.10%20Transparency/veraPDF%20test%20suite%206-2-10-t07-pass-a.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 6774,
+      "sha256": "1e4036c679f3866a167ea7e0c99b1ed45bfa7a6a6cbe105046d8897ee378c841",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-2b/6.2 Graphics/6.2.11 Fonts/6.2.11.3 Composite fonts/6.2.11.3.2 CIDFonts/veraPDF test suite 6-2-11-3-2-t01-fail-b.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-2b/6.2%20Graphics/6.2.11%20Fonts/6.2.11.3%20Composite%20fonts/6.2.11.3.2%20CIDFonts/veraPDF%20test%20suite%206-2-11-3-2-t01-fail-b.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 37201,
+      "sha256": "42be1a77a7104513459e2a86a2184789e4c165039b725a412299e0d8e4adad37",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-2b/6.2 Graphics/6.2.2 Content streams/veraPDF test suite 6-2-2-t04-pass-c.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-2b/6.2%20Graphics/6.2.2%20Content%20streams/veraPDF%20test%20suite%206-2-2-t04-pass-c.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 4331,
+      "sha256": "310507f6d9d7c2248f53e34c74654f4f591430c456def86025c1beaad1af7349",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-2b/6.2 Graphics/6.2.4.2 ICCBased colour spaces/veraPDF test suite 6-2-4-2-t02-pass-b.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-2b/6.2%20Graphics/6.2.4.2%20ICCBased%20colour%20spaces/veraPDF%20test%20suite%206-2-4-2-t02-pass-b.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 388304,
+      "sha256": "d854fd6ab254fad7684f5ebd6ffee3c5e4f773ebb314455fbd2298a6239df842",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-2b/6.2 Graphics/6.2.4.3 Uncalibrated -Device colour spaces/veraPDF test suite 6-2-4-3-t01-fail-e.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-2b/6.2%20Graphics/6.2.4.3%20Uncalibrated%20-Device%20colour%20spaces/veraPDF%20test%20suite%206-2-4-3-t01-fail-e.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3478,
+      "sha256": "33206f965dfbe1e014a64b8c7e9ee4abb4bcbbbcb059ddff43b2b69d806210aa",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-2b/6.2 Graphics/6.2.4.3 Uncalibrated -Device colour spaces/veraPDF test suite 6-2-4-3-t02-fail-a.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-2b/6.2%20Graphics/6.2.4.3%20Uncalibrated%20-Device%20colour%20spaces/veraPDF%20test%20suite%206-2-4-3-t02-fail-a.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3595,
+      "sha256": "8768c2400a00dd1294ff378ff093aab8e86ea7386879bbf7c426f1c4ea8a970a",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-2b/6.2 Graphics/6.2.4.3 Uncalibrated -Device colour spaces/veraPDF test suite 6-2-4-3-t02-pass-d.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-2b/6.2%20Graphics/6.2.4.3%20Uncalibrated%20-Device%20colour%20spaces/veraPDF%20test%20suite%206-2-4-3-t02-pass-d.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 388395,
+      "sha256": "ceea9589fd0de0df10e0f9901fa99fb648d481ca43a38244a18d864abf0355de",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-2b/6.2 Graphics/6.2.4.3 Uncalibrated -Device colour spaces/veraPDF test suite 6-2-4-3-t03-fail-a.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-2b/6.2%20Graphics/6.2.4.3%20Uncalibrated%20-Device%20colour%20spaces/veraPDF%20test%20suite%206-2-4-3-t03-fail-a.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 2959,
+      "sha256": "91ff90b724b69f14476a14c333a856e234106e1cfcfffb9b7496486ffabae4b0",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-2b/6.2 Graphics/6.2.4.4 Separation and DeviceN colour spaces/veraPDF test suite 6-2-4-4-t01-fail-b.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-2b/6.2%20Graphics/6.2.4.4%20Separation%20and%20DeviceN%20colour%20spaces/veraPDF%20test%20suite%206-2-4-4-t01-fail-b.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 9189,
+      "sha256": "104ffb7316943ea0653dade50d41aa686de1e128e3aa25111fa0be625fcf4ae6",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-2b/6.2 Graphics/6.2.4.4 Separation and DeviceN colour spaces/veraPDF test suite 6-2-4-4-t01-fail-e.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-2b/6.2%20Graphics/6.2.4.4%20Separation%20and%20DeviceN%20colour%20spaces/veraPDF%20test%20suite%206-2-4-4-t01-fail-e.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 7272,
+      "sha256": "78d40637ad3975635bdf9b87ebd3d1e284f994c5839f97c81219132775fb8af0",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-2b/6.2 Graphics/6.2.4.4 Separation and DeviceN colour spaces/veraPDF test suite 6-2-4-4-t01-fail-h.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-2b/6.2%20Graphics/6.2.4.4%20Separation%20and%20DeviceN%20colour%20spaces/veraPDF%20test%20suite%206-2-4-4-t01-fail-h.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 392369,
+      "sha256": "392653e9c99a55685416b86dbee788f536c741d599e1f0ef82db83fe9874f83c",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-2b/6.2 Graphics/6.2.4.4 Separation and DeviceN colour spaces/veraPDF test suite 6-2-4-4-t02-fail-a.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-2b/6.2%20Graphics/6.2.4.4%20Separation%20and%20DeviceN%20colour%20spaces/veraPDF%20test%20suite%206-2-4-4-t02-fail-a.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 8821,
+      "sha256": "b8409fca4c8d59d77b5d7d7d8b59e9562570dac9e011c93dff7428072e7a1670",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-2b/6.2 Graphics/6.2.5 Extended graphics state/veraPDF test suite 6-2-5-t03-fail-a.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-2b/6.2%20Graphics/6.2.5%20Extended%20graphics%20state/veraPDF%20test%20suite%206-2-5-t03-fail-a.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 4005,
+      "sha256": "32be75807ff7062d4d9453068413e80521ad9f1cf56417a5cd192e48b8b1fc24",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-2b/6.2 Graphics/6.2.6 Rendering intents/veraPDF test suite 6-2-6-t01-pass-a.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-2b/6.2%20Graphics/6.2.6%20Rendering%20intents/veraPDF%20test%20suite%206-2-6-t01-pass-a.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 9702,
+      "sha256": "7fdd45a0b06b304fba243151597a20030e0b0d2add75f72fec5e6386ee5893ed",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-2b/6.2 Graphics/6.2.8 Images/6.2.8.1 General/veraPDF test suite 6-2-8-1-t01-fail-b.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-2b/6.2%20Graphics/6.2.8%20Images/6.2.8.1%20General/veraPDF%20test%20suite%206-2-8-1-t01-fail-b.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 8436,
+      "sha256": "40959bccf6dd01bb87c9f3fd19115a61c616f2abacae958c066ad2f1d292697c",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-2b/6.2 Graphics/6.2.9 XObjects/6.2.9.1 Form XObjects/veraPDF test suite 6-2-9-1-t01-fail-a.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-2b/6.2%20Graphics/6.2.9%20XObjects/6.2.9.1%20Form%20XObjects/veraPDF%20test%20suite%206-2-9-1-t01-fail-a.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 4513,
+      "sha256": "440f4847b3dd68d1499fb3d53a2aee20e7934df52ff1d98bfe6b6470c4bd6367",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-2b/6.2 Graphics/6.2.9 XObjects/6.2.9.1 Form XObjects/veraPDF test suite 6-2-9-1-t01-fail-b.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-2b/6.2%20Graphics/6.2.9%20XObjects/6.2.9.1%20Form%20XObjects/veraPDF%20test%20suite%206-2-9-1-t01-fail-b.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 4232,
+      "sha256": "714c3a25078d544c60d174000e5e0f125c28d74eb2c1d6e4dcc97f1e35fc14a4",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-2b/6.3 Annotations/6.3.2 Annotation dictionaries/veraPDF test suite 6-3-2-t01-pass-a.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-2b/6.3%20Annotations/6.3.2%20Annotation%20dictionaries/veraPDF%20test%20suite%206-3-2-t01-pass-a.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3853,
+      "sha256": "bf9e654c6c335f5ec6f3d7906ca36c08a2a938b5c7a6acf1729190cd319b55f1",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-2b/6.3 Annotations/6.3.3 Annotation appearances/veraPDF test suite 6-3-3-t01-fail-s.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-2b/6.3%20Annotations/6.3.3%20Annotation%20appearances/veraPDF%20test%20suite%206-3-3-t01-fail-s.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 5136,
+      "sha256": "1c5fa20d94ed5ec5da603ddf5e7335d3df609cc07c16b4e03f5e9b6f2cc8f3a7",
+      "hostResult": "rejected",
+      "hostStage": "import",
+      "hostReason": "FormatException: Visible annotations without appearance streams require an annotation appearance generator."
+    },
+    {
+      "file": "veraPDF/PDF_A-2b/6.6 Metadata/6.6.2 Metadata streams/6.6.2.1 General/veraPDF test suite 6-6-2-1-t01-fail-b.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-2b/6.6%20Metadata/6.6.2%20Metadata%20streams/6.6.2.1%20General/veraPDF%20test%20suite%206-6-2-1-t01-fail-b.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3342,
+      "sha256": "c2140bb32f2d515055816da1e2ecd59c5b59e94959fb31b9a70e2e2909503ba4",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-2b/6.6 Metadata/6.6.2 Metadata streams/6.6.2.3 Schemas/6.6.2.3.1 General/veraPDF test suite 6-6-2-3-1-t01-pass-f.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-2b/6.6%20Metadata/6.6.2%20Metadata%20streams/6.6.2.3%20Schemas/6.6.2.3.1%20General/veraPDF%20test%20suite%206-6-2-3-1-t01-pass-f.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3527,
+      "sha256": "35f1b1ec77206a7f6d2f1d6ac23df17c671b84da09e76d4700fcda2196f578fa",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-2b/6.6 Metadata/6.6.2 Metadata streams/6.6.2.3 Schemas/6.6.2.3.1 General/veraPDF test suite 6-6-2-3-1-t01-pass-g.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-2b/6.6%20Metadata/6.6.2%20Metadata%20streams/6.6.2.3%20Schemas/6.6.2.3.1%20General/veraPDF%20test%20suite%206-6-2-3-1-t01-pass-g.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3528,
+      "sha256": "f0f6e9f7ecf362f5dd48e22a5b894db578ed0d82fe9f74dd3ae81976389d330f",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-2b/6.6 Metadata/6.6.2 Metadata streams/6.6.2.3 Schemas/6.6.2.3.1 General/veraPDF test suite 6-6-2-3-1-t01-pass-r.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-2b/6.6%20Metadata/6.6.2%20Metadata%20streams/6.6.2.3%20Schemas/6.6.2.3.1%20General/veraPDF%20test%20suite%206-6-2-3-1-t01-pass-r.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3519,
+      "sha256": "2178ffe9d05da001c57a8ac1d17303b93e8605cb6e7a1aa6eb44c71caa2368aa",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-2b/6.6 Metadata/6.6.2 Metadata streams/6.6.2.3 Schemas/6.6.2.3.1 General/veraPDF test suite 6-6-2-3-1-t02-fail-w.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-2b/6.6%20Metadata/6.6.2%20Metadata%20streams/6.6.2.3%20Schemas/6.6.2.3.1%20General/veraPDF%20test%20suite%206-6-2-3-1-t02-fail-w.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3622,
+      "sha256": "3d208e3ba2f43d3687a6ee827cd3474d67eafd4930ef1e3975c1dca86d5ed77d",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-2b/6.6 Metadata/6.6.2 Metadata streams/6.6.2.3 Schemas/6.6.2.3.1 General/veraPDF test suite 6-6-2-3-1-t04-fail-m.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-2b/6.6%20Metadata/6.6.2%20Metadata%20streams/6.6.2.3%20Schemas/6.6.2.3.1%20General/veraPDF%20test%20suite%206-6-2-3-1-t04-fail-m.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3543,
+      "sha256": "b0c216e2ea86aee3857a18fbcd3fedb9560901421aecbcb1d21d266eeb23d03f",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-2b/6.6 Metadata/6.6.2 Metadata streams/6.6.2.3 Schemas/6.6.2.3.1 General/veraPDF test suite 6-6-2-3-1-t04-fail-x.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-2b/6.6%20Metadata/6.6.2%20Metadata%20streams/6.6.2.3%20Schemas/6.6.2.3.1%20General/veraPDF%20test%20suite%206-6-2-3-1-t04-fail-x.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3544,
+      "sha256": "37800371f8845470cd4cc8b96003dae6f2fe5f89a8f3b3141097ddbe45e5182d",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-2b/6.6 Metadata/6.6.2 Metadata streams/6.6.2.3 Schemas/6.6.2.3.1 General/veraPDF test suite 6-6-2-3-1-t05-fail-a.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-2b/6.6%20Metadata/6.6.2%20Metadata%20streams/6.6.2.3%20Schemas/6.6.2.3.1%20General/veraPDF%20test%20suite%206-6-2-3-1-t05-fail-a.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3619,
+      "sha256": "4c7913cc71433a28573adeb5fdc4d7e6e9275ba4e74dc1211ace37a38598cfa9",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-2b/6.6 Metadata/6.6.2 Metadata streams/6.6.2.3 Schemas/6.6.2.3.1 General/veraPDF test suite 6-6-2-3-1-t05-pass-i.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-2b/6.6%20Metadata/6.6.2%20Metadata%20streams/6.6.2.3%20Schemas/6.6.2.3.1%20General/veraPDF%20test%20suite%206-6-2-3-1-t05-pass-i.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3485,
+      "sha256": "6f3ae9cd32322efc3530c25bd546b73b755900dbfa9d8abcaca9b75c16b33024",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-2b/6.6 Metadata/6.6.2 Metadata streams/6.6.2.3 Schemas/6.6.2.3.1 General/veraPDF test suite 6-6-2-3-1-t05-pass-k.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-2b/6.6%20Metadata/6.6.2%20Metadata%20streams/6.6.2.3%20Schemas/6.6.2.3.1%20General/veraPDF%20test%20suite%206-6-2-3-1-t05-pass-k.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3514,
+      "sha256": "8f9b609ac420ad54f34aceedc6247ce7dc9c001cb9bd66ea949545bc9e41be6d",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-2b/6.6 Metadata/6.6.2 Metadata streams/6.6.2.3 Schemas/6.6.2.3.1 General/veraPDF test suite 6-6-2-3-1-t09-fail-i.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-2b/6.6%20Metadata/6.6.2%20Metadata%20streams/6.6.2.3%20Schemas/6.6.2.3.1%20General/veraPDF%20test%20suite%206-6-2-3-1-t09-fail-i.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3750,
+      "sha256": "cf6e5db257fc750da3387b8f281f45c31912afd91f4996cf5a8f7cf576533d65",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-2b/6.6 Metadata/6.6.2 Metadata streams/6.6.2.3 Schemas/6.6.2.3.1 General/veraPDF test suite 6-6-2-3-1-t09-pass-b.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-2b/6.6%20Metadata/6.6.2%20Metadata%20streams/6.6.2.3%20Schemas/6.6.2.3.1%20General/veraPDF%20test%20suite%206-6-2-3-1-t09-pass-b.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3542,
+      "sha256": "70591a0417811d2b0602dc79c1e77b7958e94933aa9d2ba64fae1fa6ddce04b3",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-2b/6.6 Metadata/6.6.2 Metadata streams/6.6.2.3 Schemas/6.6.2.3.1 General/veraPDF test suite 6-6-2-3-1-t09-pass-h.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-2b/6.6%20Metadata/6.6.2%20Metadata%20streams/6.6.2.3%20Schemas/6.6.2.3.1%20General/veraPDF%20test%20suite%206-6-2-3-1-t09-pass-h.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3659,
+      "sha256": "cf41294de720d9f9cd446850efe45f07bb597d34781135482b298f9c4e4f8df9",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-2b/6.6 Metadata/6.6.2 Metadata streams/6.6.2.3 Schemas/6.6.2.3.1 General/veraPDF test suite 6-6-2-3-1-t11-pass-c.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-2b/6.6%20Metadata/6.6.2%20Metadata%20streams/6.6.2.3%20Schemas/6.6.2.3.1%20General/veraPDF%20test%20suite%206-6-2-3-1-t11-pass-c.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3943,
+      "sha256": "c3db55a3080818a853e6dd52253057e717e9cb31dccd084a6e413a35ef3b48cb",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-2b/6.6 Metadata/6.6.2 Metadata streams/6.6.2.3 Schemas/6.6.2.3.1 General/veraPDF test suite 6-6-2-3-1-t12-pass-c.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-2b/6.6%20Metadata/6.6.2%20Metadata%20streams/6.6.2.3%20Schemas/6.6.2.3.1%20General/veraPDF%20test%20suite%206-6-2-3-1-t12-pass-c.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3347,
+      "sha256": "f0f41400c8b83a95f8726e668d0082b7596ceb3a4f9bbb3ef49fb19dd7f0ee75",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-2b/6.6 Metadata/6.6.2 Metadata streams/6.6.2.3 Schemas/6.6.2.3.1 General/veraPDF test suite 6-6-2-3-1-t13-fail-h.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-2b/6.6%20Metadata/6.6.2%20Metadata%20streams/6.6.2.3%20Schemas/6.6.2.3.1%20General/veraPDF%20test%20suite%206-6-2-3-1-t13-fail-h.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3618,
+      "sha256": "2f4562259fe6a7c4c264e0468e2ad642376ceb7def304be2e45d0c9105ce34dd",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-2b/6.6 Metadata/6.6.2 Metadata streams/6.6.2.3 Schemas/6.6.2.3.1 General/veraPDF test suite 6-6-2-3-1-t13-fail-i.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-2b/6.6%20Metadata/6.6.2%20Metadata%20streams/6.6.2.3%20Schemas/6.6.2.3.1%20General/veraPDF%20test%20suite%206-6-2-3-1-t13-fail-i.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3634,
+      "sha256": "7aa3a5e63f7d1760b125e1b9e0dcde5738122fd0af02971f9c9415f4c64d9878",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-2b/6.6 Metadata/6.6.2 Metadata streams/6.6.2.3 Schemas/6.6.2.3.1 General/veraPDF test suite 6-6-2-3-1-t13-pass-b.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-2b/6.6%20Metadata/6.6.2%20Metadata%20streams/6.6.2.3%20Schemas/6.6.2.3.1%20General/veraPDF%20test%20suite%206-6-2-3-1-t13-pass-b.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3525,
+      "sha256": "714a2c93108fc38df856db5f41d60466733bdb95f405b2a0294818dff5fc020b",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-2b/6.6 Metadata/6.6.2 Metadata streams/6.6.2.3 Schemas/6.6.2.3.1 General/veraPDF test suite 6-6-2-3-1-t13-pass-c.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-2b/6.6%20Metadata/6.6.2%20Metadata%20streams/6.6.2.3%20Schemas/6.6.2.3.1%20General/veraPDF%20test%20suite%206-6-2-3-1-t13-pass-c.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3502,
+      "sha256": "866eb5b3284bc24214c45ecc38a60ae806d896e48ecfbb40dfc39d8e3811c12e",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-2b/6.6 Metadata/6.6.2 Metadata streams/6.6.2.3 Schemas/6.6.2.3.1 General/veraPDF test suite 6-6-2-3-1-t14-fail-b.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-2b/6.6%20Metadata/6.6.2%20Metadata%20streams/6.6.2.3%20Schemas/6.6.2.3.1%20General/veraPDF%20test%20suite%206-6-2-3-1-t14-fail-b.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3562,
+      "sha256": "03b02c8be4df8a166149a39edbacb349063f91d8f22fb2d8b66b076655d95b1f",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-2b/6.6 Metadata/6.6.2 Metadata streams/6.6.2.3 Schemas/6.6.2.3.1 General/veraPDF test suite 6-6-2-3-1-t14-fail-e.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-2b/6.6%20Metadata/6.6.2%20Metadata%20streams/6.6.2.3%20Schemas/6.6.2.3.1%20General/veraPDF%20test%20suite%206-6-2-3-1-t14-fail-e.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3602,
+      "sha256": "69f6c656b4f6921e20e34c47f4505b006f584b61d4b21a898ad5fe8e976980b0",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-2b/6.6 Metadata/6.6.2 Metadata streams/6.6.2.3 Schemas/6.6.2.3.1 General/veraPDF test suite 6-6-2-3-1-t14-fail-t.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-2b/6.6%20Metadata/6.6.2%20Metadata%20streams/6.6.2.3%20Schemas/6.6.2.3.1%20General/veraPDF%20test%20suite%206-6-2-3-1-t14-fail-t.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3704,
+      "sha256": "d1a495c44e57b2f3e7a761921e0cacc107f545a44c89ac373c3f45f9a3f02b3e",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-2b/6.6 Metadata/6.6.2 Metadata streams/6.6.2.3 Schemas/6.6.2.3.1 General/veraPDF test suite 6-6-2-3-1-t14-fail-v.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-2b/6.6%20Metadata/6.6.2%20Metadata%20streams/6.6.2.3%20Schemas/6.6.2.3.1%20General/veraPDF%20test%20suite%206-6-2-3-1-t14-fail-v.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3606,
+      "sha256": "a4cb4a4e2e6433d35274949306ac5f37ea6ca6be062b2a73aeedefdbfc3a22d7",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-2b/6.6 Metadata/6.6.2 Metadata streams/6.6.2.3 Schemas/6.6.2.3.1 General/veraPDF test suite 6-6-2-3-1-t14-pass-c.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-2b/6.6%20Metadata/6.6.2%20Metadata%20streams/6.6.2.3%20Schemas/6.6.2.3.1%20General/veraPDF%20test%20suite%206-6-2-3-1-t14-pass-c.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3605,
+      "sha256": "08a8c68747b73350407786367afef57b3e6cf8562a97631f49b9d4525a2b3529",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-2b/6.6 Metadata/6.6.2 Metadata streams/6.6.2.3 Schemas/6.6.2.3.1 General/veraPDF test suite 6-6-2-3-1-t14-pass-d.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-2b/6.6%20Metadata/6.6.2%20Metadata%20streams/6.6.2.3%20Schemas/6.6.2.3.1%20General/veraPDF%20test%20suite%206-6-2-3-1-t14-pass-d.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3504,
+      "sha256": "b33709195593284e460b256dd55e7f64d00c04be335a642e3e06d8e0114f2329",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-2b/6.6 Metadata/6.6.2 Metadata streams/6.6.2.3 Schemas/6.6.2.3.1 General/veraPDF test suite 6-6-2-3-1-t14-pass-j.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-2b/6.6%20Metadata/6.6.2%20Metadata%20streams/6.6.2.3%20Schemas/6.6.2.3.1%20General/veraPDF%20test%20suite%206-6-2-3-1-t14-pass-j.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3519,
+      "sha256": "a3b779dd369adee99b90753f5a497ce1ec98a40d680169b9e366131ddb04a093",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-2b/6.6 Metadata/6.6.2 Metadata streams/6.6.2.3 Schemas/6.6.2.3.1 General/veraPDF test suite 6-6-2-3-1-t14-pass-k.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-2b/6.6%20Metadata/6.6.2%20Metadata%20streams/6.6.2.3%20Schemas/6.6.2.3.1%20General/veraPDF%20test%20suite%206-6-2-3-1-t14-pass-k.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3506,
+      "sha256": "34dcf827d245d70bf1d8d032f455c6931b6597f6ac9b487d883ba27b0d3b0d5f",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-2b/6.6 Metadata/6.6.2 Metadata streams/6.6.2.3 Schemas/6.6.2.3.1 General/veraPDF test suite 6-6-2-3-1-t14-pass-p.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-2b/6.6%20Metadata/6.6.2%20Metadata%20streams/6.6.2.3%20Schemas/6.6.2.3.1%20General/veraPDF%20test%20suite%206-6-2-3-1-t14-pass-p.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3746,
+      "sha256": "3caa7bb3e7d6b9fae281f8e32cc95c5c41fb13baa5fa1fd26c1c7b668b19ab13",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-2b/6.6 Metadata/6.6.2 Metadata streams/6.6.2.3 Schemas/6.6.2.3.1 General/veraPDF test suite 6-6-2-3-1-t15-fail-g.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-2b/6.6%20Metadata/6.6.2%20Metadata%20streams/6.6.2.3%20Schemas/6.6.2.3.1%20General/veraPDF%20test%20suite%206-6-2-3-1-t15-fail-g.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3579,
+      "sha256": "494004523a0c702a225bb2edbbfb934b225889919de0d4b01febaa0f9a70e61a",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-2b/6.6 Metadata/6.6.2 Metadata streams/6.6.2.3 Schemas/6.6.2.3.1 General/veraPDF test suite 6-6-2-3-1-t15-fail-r.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-2b/6.6%20Metadata/6.6.2%20Metadata%20streams/6.6.2.3%20Schemas/6.6.2.3.1%20General/veraPDF%20test%20suite%206-6-2-3-1-t15-fail-r.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3652,
+      "sha256": "12833a9481326eb9b233d1963332d62c4fea73a4892459ed4b390eed40f2ef72",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-2b/6.6 Metadata/6.6.2 Metadata streams/6.6.2.3 Schemas/6.6.2.3.1 General/veraPDF test suite 6-6-2-3-1-t15-fail-u.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-2b/6.6%20Metadata/6.6.2%20Metadata%20streams/6.6.2.3%20Schemas/6.6.2.3.1%20General/veraPDF%20test%20suite%206-6-2-3-1-t15-fail-u.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3631,
+      "sha256": "68d8a7ad2447df3fd6228d035026405b48bea9b30a2f007521301dae98cb6255",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-2b/6.6 Metadata/6.6.2 Metadata streams/6.6.2.3 Schemas/6.6.2.3.1 General/veraPDF test suite 6-6-2-3-1-t15-pass-b.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-2b/6.6%20Metadata/6.6.2%20Metadata%20streams/6.6.2.3%20Schemas/6.6.2.3.1%20General/veraPDF%20test%20suite%206-6-2-3-1-t15-pass-b.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3528,
+      "sha256": "5543c73614a2465d792af1041abbd428e1653e3edb07eb21ef1abc53650292dd",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-2b/6.6 Metadata/6.6.2 Metadata streams/6.6.2.3 Schemas/6.6.2.3.1 General/veraPDF test suite 6-6-2-3-1-t15-pass-j.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-2b/6.6%20Metadata/6.6.2%20Metadata%20streams/6.6.2.3%20Schemas/6.6.2.3.1%20General/veraPDF%20test%20suite%206-6-2-3-1-t15-pass-j.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3539,
+      "sha256": "d100bc467758f1b211a2d96ba8c227d9418bc8be49635d02db8af8f19888303c",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-2b/6.6 Metadata/6.6.2 Metadata streams/6.6.2.3 Schemas/6.6.2.3.1 General/veraPDF test suite 6-6-2-3-1-t15-pass-q.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-2b/6.6%20Metadata/6.6.2%20Metadata%20streams/6.6.2.3%20Schemas/6.6.2.3.1%20General/veraPDF%20test%20suite%206-6-2-3-1-t15-pass-q.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3561,
+      "sha256": "fabdf3259ba0b43474472ced9db1732f6b1112d5d70b146052ee50cf888b3ad3",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-2b/6.6 Metadata/6.6.2 Metadata streams/6.6.2.3 Schemas/6.6.2.3.1 General/veraPDF test suite 6-6-2-3-1-t16-fail-a.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-2b/6.6%20Metadata/6.6.2%20Metadata%20streams/6.6.2.3%20Schemas/6.6.2.3.1%20General/veraPDF%20test%20suite%206-6-2-3-1-t16-fail-a.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3566,
+      "sha256": "325ca99108366eee2a341e0d7d22e178aaa4dfe3dd16498b2c5d0abe3c0a7708",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-2b/6.6 Metadata/6.6.2 Metadata streams/6.6.2.3 Schemas/6.6.2.3.1 General/veraPDF test suite 6-6-2-3-1-t16-pass-n.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-2b/6.6%20Metadata/6.6.2%20Metadata%20streams/6.6.2.3%20Schemas/6.6.2.3.1%20General/veraPDF%20test%20suite%206-6-2-3-1-t16-pass-n.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3510,
+      "sha256": "16417e20cbc3259ea559668db7d5cf542b849e04e0beb45ea4d7e98de3feba29",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-2b/6.6 Metadata/6.6.2 Metadata streams/6.6.2.3 Schemas/6.6.2.3.1 General/veraPDF test suite 6-6-2-3-1-t17-fail-m.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-2b/6.6%20Metadata/6.6.2%20Metadata%20streams/6.6.2.3%20Schemas/6.6.2.3.1%20General/veraPDF%20test%20suite%206-6-2-3-1-t17-fail-m.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3605,
+      "sha256": "73bc4f5d79972e627d9fbe1f96346b4bb1427e327370dab5ef529ed894a5ba38",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-2b/6.6 Metadata/6.6.2 Metadata streams/6.6.2.3 Schemas/6.6.2.3.1 General/veraPDF test suite 6-6-2-3-1-t17-fail-y.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-2b/6.6%20Metadata/6.6.2%20Metadata%20streams/6.6.2.3%20Schemas/6.6.2.3.1%20General/veraPDF%20test%20suite%206-6-2-3-1-t17-fail-y.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3637,
+      "sha256": "bc726013884552bcd90d145e24082d421d899925d93e07baaf526a420044ddb8",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-2b/6.6 Metadata/6.6.2 Metadata streams/6.6.2.3 Schemas/6.6.2.3.1 General/veraPDF test suite 6-6-2-3-1-t17-pass-n.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-2b/6.6%20Metadata/6.6.2%20Metadata%20streams/6.6.2.3%20Schemas/6.6.2.3.1%20General/veraPDF%20test%20suite%206-6-2-3-1-t17-pass-n.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3513,
+      "sha256": "084c00df9eda50b28b8307777bd876dc0799e9ea4f1b88f59a0a2cd306d90dde",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-2b/6.6 Metadata/6.6.2 Metadata streams/6.6.2.3 Schemas/6.6.2.3.1 General/veraPDF test suite 6-6-2-3-1-t18-pass-a.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-2b/6.6%20Metadata/6.6.2%20Metadata%20streams/6.6.2.3%20Schemas/6.6.2.3.1%20General/veraPDF%20test%20suite%206-6-2-3-1-t18-pass-a.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3547,
+      "sha256": "deaee55ef1d41f54e1c5f13b92bc77dc8c9071b9095f971440ba2456e9b2cdaa",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-2b/6.6 Metadata/6.6.2 Metadata streams/6.6.2.3 Schemas/6.6.2.3.3 Extension schema container schemas/veraPDF test suite 6-6-2-3-3-t02-fail-a.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-2b/6.6%20Metadata/6.6.2%20Metadata%20streams/6.6.2.3%20Schemas/6.6.2.3.3%20Extension%20schema%20container%20schemas/veraPDF%20test%20suite%206-6-2-3-3-t02-fail-a.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 5366,
+      "sha256": "d176355679991d2abe8f79e29a119310f4b8067697365e6eec366693f348a021",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-2b/6.6 Metadata/6.6.2 Metadata streams/6.6.2.3 Schemas/6.6.2.3.3 Extension schema container schemas/veraPDF test suite 6-6-2-3-3-t04-fail-b.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-2b/6.6%20Metadata/6.6.2%20Metadata%20streams/6.6.2.3%20Schemas/6.6.2.3.3%20Extension%20schema%20container%20schemas/veraPDF%20test%20suite%206-6-2-3-3-t04-fail-b.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 5376,
+      "sha256": "55a0532f422baf26bb87246481cbaaa490ddb8fc7a60722113b53e878bb5d0c2",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-2u/6.2 Graphics/6.2.11 Fonts/6.2.11.7 Unicode character maps/6.2.11.7.2 Level A and Level U conformance/veraPDF test suite 6-2-11-7-2-t01-fail-f.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-2u/6.2%20Graphics/6.2.11%20Fonts/6.2.11.7%20Unicode%20character%20maps/6.2.11.7.2%20Level%20A%20and%20Level%20U%20conformance/veraPDF%20test%20suite%206-2-11-7-2-t01-fail-f.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 10629,
+      "sha256": "f45f665922aea3e29e6d74cab78cdb8243a89922bb38151689f0ccd6f6d04333",
+      "hostResult": "rejected",
+      "hostStage": "import",
+      "hostReason": "FormatException: Unsupported ICC device colour space \"gray\""
+    },
+    {
+      "file": "veraPDF/PDF_A-2u/6.2 Graphics/6.2.11 Fonts/6.2.11.7 Unicode character maps/6.2.11.7.2 Level A and Level U conformance/veraPDF test suite 6-2-11-7-2-t01-pass-a.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-2u/6.2%20Graphics/6.2.11%20Fonts/6.2.11.7%20Unicode%20character%20maps/6.2.11.7.2%20Level%20A%20and%20Level%20U%20conformance/veraPDF%20test%20suite%206-2-11-7-2-t01-pass-a.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 10443,
+      "sha256": "312a49dc835643d312960983251df85f747a12d357013ee3426b30c4dd5aaed0",
+      "hostResult": "rejected",
+      "hostStage": "import",
+      "hostReason": "FormatException: Unsupported ICC device colour space \"gray\""
+    },
+    {
+      "file": "veraPDF/PDF_A-2u/6.2 Graphics/6.2.11 Fonts/6.2.11.7 Unicode character maps/6.2.11.7.2 Level A and Level U conformance/veraPDF test suite 6-2-11-7-2-t01-pass-j.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-2u/6.2%20Graphics/6.2.11%20Fonts/6.2.11.7%20Unicode%20character%20maps/6.2.11.7.2%20Level%20A%20and%20Level%20U%20conformance/veraPDF%20test%20suite%206-2-11-7-2-t01-pass-j.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 16860,
+      "sha256": "d1b20a7da4593e1a2cd12b25fdac7b0599f726d1cc05e725299cd032941d6b96",
+      "hostResult": "rejected",
+      "hostStage": "import",
+      "hostReason": "FormatException: Unsupported ICC device colour space \"gray\""
+    },
+    {
+      "file": "veraPDF/PDF_A-2u/6.2 Graphics/6.2.11 Fonts/6.2.11.7 Unicode character maps/6.2.11.7.2 Level A and Level U conformance/veraPDF test suite 6-2-11-7-2-t01-pass-l.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-2u/6.2%20Graphics/6.2.11%20Fonts/6.2.11.7%20Unicode%20character%20maps/6.2.11.7.2%20Level%20A%20and%20Level%20U%20conformance/veraPDF%20test%20suite%206-2-11-7-2-t01-pass-l.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 22414,
+      "sha256": "9a9a716d2b680ad9041dbbd5077554630758d3772fcc7dd132b0c13407065467",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-4/6.1 File structure/6.1.11 Permissions/veraPDF test suite 6-1-11-t01-pass-a.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-4/6.1%20File%20structure/6.1.11%20Permissions/veraPDF%20test%20suite%206-1-11-t01-pass-a.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 7207,
+      "sha256": "0f9d20855519c455802a8d85e6b5afac9ec65719421a02973977e3447cba3419",
+      "hostResult": "rejected",
+      "hostStage": "import",
+      "hostReason": "FormatException: Visible annotations without appearance streams require an annotation appearance generator."
+    },
+    {
+      "file": "veraPDF/PDF_A-4/6.1 File structure/6.1.12 Document catalog dictionary/veraPDF test suite 6-1-12-t01-fail-d.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-4/6.1%20File%20structure/6.1.12%20Document%20catalog%20dictionary/veraPDF%20test%20suite%206-1-12-t01-fail-d.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3029,
+      "sha256": "96d54f365d70c6386a59462f58fa18078e4fb695beb673966ee738eccd768b49",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-4/6.1 File structure/6.1.12 Document catalog dictionary/veraPDF test suite 6-1-12-t01-pass-a.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-4/6.1%20File%20structure/6.1.12%20Document%20catalog%20dictionary/veraPDF%20test%20suite%206-1-12-t01-pass-a.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3071,
+      "sha256": "781ac228f26df7e2a29e010b9cc3103898acab60638f15f2034ac2100e389646",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-4/6.1 File structure/6.1.2 File header/veraPDF test suite 6-1-2-t01-fail-d.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-4/6.1%20File%20structure/6.1.2%20File%20header/veraPDF%20test%20suite%206-1-2-t01-fail-d.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3188,
+      "sha256": "c2db2bf325d34da145ff6046e00dcf77a18fdfec2cb56d8fe84100000c69899f",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-4/6.1 File structure/6.1.3 File trailer/veraPDF test suite 6-1-3-t02-fail-a.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-4/6.1%20File%20structure/6.1.3%20File%20trailer/veraPDF%20test%20suite%206-1-3-t02-fail-a.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 6658,
+      "sha256": "b190b24a72a9650e256118b1db2d937dbd81b30769935bc3c9293b12577d5ad4",
+      "hostResult": "rejected",
+      "hostStage": "codec",
+      "hostReason": "FormatException: Encrypted PDFs require a decryption provider."
+    },
+    {
+      "file": "veraPDF/PDF_A-4/6.1 File structure/6.1.4 Cross reference table/veraPDF test suite 6-1-4-t02-pass-a.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-4/6.1%20File%20structure/6.1.4%20Cross%20reference%20table/veraPDF%20test%20suite%206-1-4-t02-pass-a.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 9577,
+      "sha256": "b613e6613772ae0b4c8cdf643f9866f892dcc5b6510ca25203c4d91bd75366bc",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-4/6.1 File structure/6.1.4 Cross reference table/veraPDF test suite 6-1-4-t02-pass-b.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-4/6.1%20File%20structure/6.1.4%20Cross%20reference%20table/veraPDF%20test%20suite%206-1-4-t02-pass-b.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 9544,
+      "sha256": "19fdc95d009270d9e90964b7d11ef8e3e54080a991f53c9b7d5f789db054fd5b",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-4/6.1 File structure/6.1.7 Name objects/veraPDF test suite 6-1-7-t01-fail-b.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-4/6.1%20File%20structure/6.1.7%20Name%20objects/veraPDF%20test%20suite%206-1-7-t01-fail-b.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 491754,
+      "sha256": "a8b5f22d285572bc1f39399587b6b51026f30219b15702065e25e8f321d4632a",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-4/6.11 Use of alternate presentations and transitions/veraPDF test suite 6-11-t01-fail-a.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-4/6.11%20Use%20of%20alternate%20presentations%20and%20transitions/veraPDF%20test%20suite%206-11-t01-fail-a.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3447,
+      "sha256": "4c22bd224eea8a83e59c652c05c5086f713af35afa92d0d48e673f7289a36a17",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-4/6.2 Graphics/6.2.2 Content streams/veraPDF test suite 6-2-2-t02-fail-b.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-4/6.2%20Graphics/6.2.2%20Content%20streams/veraPDF%20test%20suite%206-2-2-t02-fail-b.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3846,
+      "sha256": "573ccddfe5db143dad80427a18f52e6fa0612a63eb4c2de29b55c921998fcee2",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-4/6.2 Graphics/6.2.2 Content streams/veraPDF test suite 6-2-2-t02-pass-b.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-4/6.2%20Graphics/6.2.2%20Content%20streams/veraPDF%20test%20suite%206-2-2-t02-pass-b.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3741,
+      "sha256": "1dd4e777b1d973584733651748bbad2295dae36c534aecc19bd51068c2eb3319",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-4/6.2 Graphics/6.2.4 Colour spaces/6.2.4.3 Uncalibrated -Device colour spaces/veraPDF test suite 6-2-4-3-t01-fail-c.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-4/6.2%20Graphics/6.2.4%20Colour%20spaces/6.2.4.3%20Uncalibrated%20-Device%20colour%20spaces/veraPDF%20test%20suite%206-2-4-3-t01-fail-c.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 7378,
+      "sha256": "47a5b34798d934797690275c81344580dbeb17da694abbd9798dc4820b66b284",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-4/6.2 Graphics/6.2.4 Colour spaces/6.2.4.3 Uncalibrated -Device colour spaces/veraPDF test suite 6-2-4-3-t01-fail-d.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-4/6.2%20Graphics/6.2.4%20Colour%20spaces/6.2.4.3%20Uncalibrated%20-Device%20colour%20spaces/veraPDF%20test%20suite%206-2-4-3-t01-fail-d.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 392470,
+      "sha256": "5c7b1d4961d11daae01fe9b3b118e2983ac4a11d6f6909c2c797a04d745aa199",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-4/6.2 Graphics/6.2.4 Colour spaces/6.2.4.3 Uncalibrated -Device colour spaces/veraPDF test suite 6-2-4-3-t01-fail-k.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-4/6.2%20Graphics/6.2.4%20Colour%20spaces/6.2.4.3%20Uncalibrated%20-Device%20colour%20spaces/veraPDF%20test%20suite%206-2-4-3-t01-fail-k.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 4201,
+      "sha256": "b4405f590679971303a4fa627a4639b6c9487feefd948b5294c5e1ec27b7672d",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-4/6.2 Graphics/6.2.4 Colour spaces/6.2.4.3 Uncalibrated -Device colour spaces/veraPDF test suite 6-2-4-3-t01-fail-t.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-4/6.2%20Graphics/6.2.4%20Colour%20spaces/6.2.4.3%20Uncalibrated%20-Device%20colour%20spaces/veraPDF%20test%20suite%206-2-4-3-t01-fail-t.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 22849,
+      "sha256": "d06cf92eccc99b91f42cfca00201e09f6b4695e65189585eca3717d5211dda75",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-4/6.2 Graphics/6.2.4 Colour spaces/6.2.4.3 Uncalibrated -Device colour spaces/veraPDF test suite 6-2-4-3-t02-fail-b.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-4/6.2%20Graphics/6.2.4%20Colour%20spaces/6.2.4.3%20Uncalibrated%20-Device%20colour%20spaces/veraPDF%20test%20suite%206-2-4-3-t02-fail-b.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 2996,
+      "sha256": "b0e8ebe6b8d130cd3fabbf0ab85570d44ef1aee37772ad57926f8b8afd78cdd1",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-4/6.2 Graphics/6.2.4 Colour spaces/6.2.4.3 Uncalibrated -Device colour spaces/veraPDF test suite 6-2-4-3-t03-fail-b.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-4/6.2%20Graphics/6.2.4%20Colour%20spaces/6.2.4.3%20Uncalibrated%20-Device%20colour%20spaces/veraPDF%20test%20suite%206-2-4-3-t03-fail-b.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 5386,
+      "sha256": "7b0d8a0779fe2dfdd3199655d1ee73c99225d341daf59c4b5dd45181fdb3f7b4",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-4/6.2 Graphics/6.2.4 Colour spaces/6.2.4.3 Uncalibrated -Device colour spaces/veraPDF test suite 6-2-4-3-t04-pass-g.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-4/6.2%20Graphics/6.2.4%20Colour%20spaces/6.2.4.3%20Uncalibrated%20-Device%20colour%20spaces/veraPDF%20test%20suite%206-2-4-3-t04-pass-g.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3255,
+      "sha256": "5540ba264c8fcbb75a871c28c5005e65ef5ee5b4250f27ca791846042b328c6f",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-4/6.2 Graphics/6.2.4 Colour spaces/6.2.4.5 Indexed and Pattern colour spaces/veraPDF test suite 6-2-4-5-t01-pass-b.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-4/6.2%20Graphics/6.2.4%20Colour%20spaces/6.2.4.5%20Indexed%20and%20Pattern%20colour%20spaces/veraPDF%20test%20suite%206-2-4-5-t01-pass-b.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3659,
+      "sha256": "d1db857583f4c7ad2f53125e78b99e4c177b9daf947aaf0419af42d77dfed610",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-4/6.2 Graphics/6.2.7 Images/6.2.7.1 General/veraPDF test suite 6-2-7-1-t03-pass-b.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-4/6.2%20Graphics/6.2.7%20Images/6.2.7.1%20General/veraPDF%20test%20suite%206-2-7-1-t03-pass-b.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 6397,
+      "sha256": "1558cdfb1bef7b1fb77d1336ed0d82c64b3c7d38104fcfdab1539c6d7fa0679e",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-4/6.2 Graphics/6.2.9 Transparency/veraPDF test suite 6-2-9-t01-pass-d.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-4/6.2%20Graphics/6.2.9%20Transparency/veraPDF%20test%20suite%206-2-9-t01-pass-d.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3594,
+      "sha256": "87a198d17cc57821a9016448bbfda3d20007bef67b22cd8ce6b1b850074d410b",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-4/6.2 Graphics/6.2.9 Transparency/veraPDF test suite 6-2-9-t04-fail-h.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-4/6.2%20Graphics/6.2.9%20Transparency/veraPDF%20test%20suite%206-2-9-t04-fail-h.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 388403,
+      "sha256": "e2afb07d7a96325faf21d576a8d65ceb9d365d8ca4aef6ed99fb99fa10c45ad8",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-4/6.3 Annotations/6.3.3 Annotation appearances/veraPDF test suite 6-3-3-t01-fail-e.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-4/6.3%20Annotations/6.3.3%20Annotation%20appearances/veraPDF%20test%20suite%206-3-3-t01-fail-e.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3032,
+      "sha256": "b65647b753af6ecf520fea022ae6ec38f3eac43402ad059cac553e6fdc32baac",
+      "hostResult": "rejected",
+      "hostStage": "import",
+      "hostReason": "FormatException: Visible annotations without appearance streams require an annotation appearance generator."
+    },
+    {
+      "file": "veraPDF/PDF_A-4/6.3 Annotations/6.3.3 Annotation appearances/veraPDF test suite 6-3-3-t01-fail-f.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-4/6.3%20Annotations/6.3.3%20Annotation%20appearances/veraPDF%20test%20suite%206-3-3-t01-fail-f.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3032,
+      "sha256": "bf4ab0fe83a97438d5c62786018e8e0d5794dcd64b237a7aaf7e78610c97c20e",
+      "hostResult": "rejected",
+      "hostStage": "import",
+      "hostReason": "FormatException: Visible annotations without appearance streams require an annotation appearance generator."
+    },
+    {
+      "file": "veraPDF/PDF_A-4/6.4 Interactive forms/6.4.1 General/veraPDF test suite 6-4-1-t01-fail-a.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-4/6.4%20Interactive%20forms/6.4.1%20General/veraPDF%20test%20suite%206-4-1-t01-fail-a.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 5385,
+      "sha256": "5babb722906ecf885b6ede1db594ea10cd7933aed1440b5d36c130bfbe40ece2",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-4/6.4 Interactive forms/6.4.1 General/veraPDF test suite 6-4-1-t01-pass-a.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-4/6.4%20Interactive%20forms/6.4.1%20General/veraPDF%20test%20suite%206-4-1-t01-pass-a.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3657,
+      "sha256": "4cfa6a1b63a6543d1c869437463ac75c3e165adff40e45f95e0b71a005d40583",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-4/6.6 Action/6.6.1 General/veraPDF test suite 6-6-1-t01-fail-d.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-4/6.6%20Action/6.6.1%20General/veraPDF%20test%20suite%206-6-1-t01-fail-d.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 5155,
+      "sha256": "6ba303cf966dae5ce2578b30c22678edcdde505035466d3449868510b9fc5ac3",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-4/6.7 Metadata/6.7.2 Metadata streams/6.7.2.1 General/veraPDF test suite 6-7-2-1-t01-fail-c.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-4/6.7%20Metadata/6.7.2%20Metadata%20streams/6.7.2.1%20General/veraPDF%20test%20suite%206-7-2-1-t01-fail-c.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3314,
+      "sha256": "deef56eb537225bce4f1e6098407f8258625b9a63e1e5dd6cdd0d7e3f154d78c",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-4/6.7 Metadata/6.7.3 Version identification/veraPDF test suite 6-7-3-t01-fail-b.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-4/6.7%20Metadata/6.7.3%20Version%20identification/veraPDF%20test%20suite%206-7-3-t01-fail-b.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3249,
+      "sha256": "34cd7cd7dc0158396da549b5423d6028af11737c4c92cfdf4c82a25d94b6da8b",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-4/6.7 Metadata/6.7.3 Version identification/veraPDF test suite 6-7-3-t01-fail-f.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-4/6.7%20Metadata/6.7.3%20Version%20identification/veraPDF%20test%20suite%206-7-3-t01-fail-f.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3251,
+      "sha256": "09a3fd76f8026778618205dbcf5ffb63775ea445d0c7ddd773fe706076616044",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-4/6.9 Embedded files/veraPDF test suite 6-9-t03-fail-b.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-4/6.9%20Embedded%20files/veraPDF%20test%20suite%206-9-t03-fail-b.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 5362,
+      "sha256": "12ca93cbe1d59c0fc2f673d1ff8d6ac5f1dc2c17558987836d42e7b512e8b5e5",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_A-4e/6.7 Metadata/6.7.3 Version identification/veraPDF test suite 6-7-3-t01-pass-a.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_A-4e/6.7%20Metadata/6.7.3%20Version%20identification/veraPDF%20test%20suite%206-7-3-t01-pass-a.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3272,
+      "sha256": "6b1c9c0fc488abd2fd6a34daf846dd882c45350cf9ee165c6313dc5b7d57a08e",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_UA-1/5 Version identification/5-t03-pass-a.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_UA-1/5%20Version%20identification/5-t03-pass-a.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 48655,
+      "sha256": "cc93f80f377fcfb69398d67c22d3285a4ee2d0958cb9eb7316308d3c54a31b38",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_UA-1/5 Version identification/5-t05-pass-a.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_UA-1/5%20Version%20identification/5-t05-pass-a.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 49089,
+      "sha256": "1e19f0dcfd09461451cbcc3570f3b2e8d0008802f2415158d6b7c4aac2fc37b0",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_UA-1/7.1 General/7.1-t08-fail-a.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_UA-1/7.1%20General/7.1-t08-fail-a.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 24000,
+      "sha256": "7123b52f37df9fa1e593b2a6572deda67a6d0bf78631ccb32acb491f8bcf6468",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_UA-1/7.1 General/7.1-t09-pass-a.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_UA-1/7.1%20General/7.1-t09-pass-a.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 37779,
+      "sha256": "041ebe5801212484dd047f66850f29841923677aca8a3061b639204e1487d2e7",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_UA-1/7.1 General/7.1-t10-fail-b.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_UA-1/7.1%20General/7.1-t10-fail-b.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 52153,
+      "sha256": "14ebf7526af16c7124432e6e254267661c2daaa1247189733ef8684423f1f0dd",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_UA-1/7.18 Annotations/7.18.1 General/7.18.1-t02-fail-a.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_UA-1/7.18%20Annotations/7.18.1%20General/7.18.1-t02-fail-a.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 20213,
+      "sha256": "b48512600f033b396b9476cdbcff161295f14c3fe99f11c38a48081685a94b7b",
+      "hostResult": "rejected",
+      "hostStage": "import",
+      "hostReason": "FormatException: Fixed-screen annotation placement is not supported."
+    },
+    {
+      "file": "veraPDF/PDF_UA-1/7.18 Annotations/7.18.1 General/7.18.1-t02-pass-e.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_UA-1/7.18%20Annotations/7.18.1%20General/7.18.1-t02-pass-e.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 1439718,
+      "sha256": "5362463084a8716f52e989ae7867c63551ea022ec0e2da8577f93ccbeb9abe3d",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_UA-1/7.18 Annotations/7.18.7 File Attachments/7.18.7-t01-fail-d.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_UA-1/7.18%20Annotations/7.18.7%20File%20Attachments/7.18.7-t01-fail-d.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 106067,
+      "sha256": "46edbf75750542cace5280c86d67a45ed716ac2730d60a5d07572c5939aa6f54",
+      "hostResult": "rejected",
+      "hostStage": "import",
+      "hostReason": "FormatException: Fixed-screen annotation placement is not supported."
+    },
+    {
+      "file": "veraPDF/PDF_UA-1/7.2 Text/7.2-t03-pass-a.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_UA-1/7.2%20Text/7.2-t03-pass-a.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 40165,
+      "sha256": "f8d2a74a3648863240b3da95788868bdb049bb0b4c84e7ec4297e166dbbcc7e5",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_UA-1/7.2 Text/7.2-t07-fail-a.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_UA-1/7.2%20Text/7.2-t07-fail-a.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 30419,
+      "sha256": "b80533de2069b4ff5add28296115a51cf9849c26877bba44b5baf145b4e7ee63",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_UA-1/7.2 Text/7.2-t23-fail-a.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_UA-1/7.2%20Text/7.2-t23-fail-a.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 26185,
+      "sha256": "3b423ba3a31beb5449d4479a70a28e104a9690bf0cdfa353cb5379fdf5c57004",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_UA-1/7.2 Text/7.2-t24-pass-a.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_UA-1/7.2%20Text/7.2-t24-pass-a.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 45107,
+      "sha256": "0050c06eff4beffd6a3321038101e4a97cb73406e01e32ff3dd7de8fa2063eef",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_UA-1/7.2 Text/7.2-t27-pass-a.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_UA-1/7.2%20Text/7.2-t27-pass-a.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 24788,
+      "sha256": "6aeeba141024e780f4bf78e818028a6c2f6ac11d718f5e16c0ce5373170dc22e",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_UA-1/7.2 Text/7.2-t29-fail-l.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_UA-1/7.2%20Text/7.2-t29-fail-l.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 14528,
+      "sha256": "c416679a6a358098909ac2e97df419edcf10f1ab2923766d72eff5de1b5937e2",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_UA-1/7.2 Text/7.2-t29-pass-f.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_UA-1/7.2%20Text/7.2-t29-pass-f.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 26423,
+      "sha256": "60391e718253a73d01bdbe62ed8e9ea476758c1eb1275d10c0cad666bf2da9aa",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_UA-1/7.2 Text/7.2-t38-fail-a.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_UA-1/7.2%20Text/7.2-t38-fail-a.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 30589,
+      "sha256": "cd4f8a1d9f0e9db48753faccadad47b02706904fb8c33aa5dfc36e10bcc1130c",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_UA-1/7.20 XObjects/7.20-t01-fail-a.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_UA-1/7.20%20XObjects/7.20-t01-fail-a.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 15380,
+      "sha256": "4fb2232db47514b6029f27a67ddb2ff6707c99130a7d09f4e9f97f12fb49a1ed",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_UA-1/7.21 Fonts/7.21.4 Embedding/7.21.4.2 Subset embedding/7.21.4.2-t01-pass-a.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_UA-1/7.21%20Fonts/7.21.4%20Embedding/7.21.4.2%20Subset%20embedding/7.21.4.2-t01-pass-a.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 48474,
+      "sha256": "505a921bb5fda00a8bca6fa8e298ed77ed5d627520d34982afd0862a9a1d4199",
+      "hostResult": "rejected",
+      "hostStage": "import",
+      "hostReason": "FormatException: Unsupported ICC device colour space \"gray\""
+    },
+    {
+      "file": "veraPDF/PDF_UA-1/7.21 Fonts/7.21.7 Unicode character maps/7.21.7-t01-pass-a.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_UA-1/7.21%20Fonts/7.21.7%20Unicode%20character%20maps/7.21.7-t01-pass-a.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 22316,
+      "sha256": "a626d37abd1dc72cbc6e9839e270e63435b3ae4ed09bb718c5ab2821dbfc8039",
+      "hostResult": "rejected",
+      "hostStage": "import",
+      "hostReason": "FormatException: Unsupported ICC device colour space \"gray\""
+    },
+    {
+      "file": "veraPDF/PDF_UA-1/7.4 Headings/7.4.2 Numbered headings/7.4.2-t01-pass-c.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_UA-1/7.4%20Headings/7.4.2%20Numbered%20headings/7.4.2-t01-pass-c.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 42483,
+      "sha256": "cf895122a91e8a99fc069237e39a5a6814c3d107006695e8b2282d852547bc77",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_UA-1/7.4 Headings/7.4.4 Unnumbered headings/7.4.4-t02-pass-a.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_UA-1/7.4%20Headings/7.4.4%20Unnumbered%20headings/7.4.4-t02-pass-a.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 33643,
+      "sha256": "ea1d258cd5356209de7cdb522bb7d8fb96e22b432395ede03bc5f437c9cc5556",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_UA-1/7.5 Tables/7.5-t01-fail-b.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_UA-1/7.5%20Tables/7.5-t01-fail-b.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 36742,
+      "sha256": "745ef7ac75daefa55a77374e4e8f0eeed63103f6cabe68a974ae98af44a06ff9",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_UA-2/8.11 Metadata/8.11.1 General/8.11.1-t01-pass-a.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_UA-2/8.11%20Metadata/8.11.1%20General/8.11.1-t01-pass-a.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 23813,
+      "sha256": "e141502fc6cc4ee4708640e6c1d91ff41ada38df8f25c34252ef060bcf5ff15b",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_UA-2/8.2 Logical structure/8.2.5 Additional requirements for specific structure types/8.2.5.25 List (L, LI, LBody)/8.2.5.25-t01-fail-a.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_UA-2/8.2%20Logical%20structure/8.2.5%20Additional%20requirements%20for%20specific%20structure%20types/8.2.5.25%20List%20%28L%2C%20LI%2C%20LBody%29/8.2.5.25-t01-fail-a.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 34843,
+      "sha256": "4032b9bded254346d3ce8b792e5c514c212c06eccf377ac172aff8fe6229f066",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_UA-2/8.2 Logical structure/8.2.5 Additional requirements for specific structure types/8.2.5.26 Table (Table, TR, TH, TD, THead, TBody, TFoot)/8.2.5.26-t05-fail-a.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_UA-2/8.2%20Logical%20structure/8.2.5%20Additional%20requirements%20for%20specific%20structure%20types/8.2.5.26%20Table%20%28Table%2C%20TR%2C%20TH%2C%20TD%2C%20THead%2C%20TBody%2C%20TFoot%29/8.2.5.26-t05-fail-a.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 40399,
+      "sha256": "0265745a52fa46b5a59c5202f2f2522b4eda501abfbd221380c28ea84e317ee9",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_UA-2/8.2 Logical structure/8.2.5 Additional requirements for specific structure types/8.2.5.26 Table (Table, TR, TH, TD, THead, TBody, TFoot)/8.2.5.26-t05-pass-a.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_UA-2/8.2%20Logical%20structure/8.2.5%20Additional%20requirements%20for%20specific%20structure%20types/8.2.5.26%20Table%20%28Table%2C%20TR%2C%20TH%2C%20TD%2C%20THead%2C%20TBody%2C%20TFoot%29/8.2.5.26-t05-pass-a.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 41982,
+      "sha256": "ee5fa4b0883f5a0cf36c2800a2b2f18048a4e4a71c493c9872cc927fbe97e20c",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_UA-2/8.4 Text representation for content/8.4.4 Declaring natural language/8.4.4-t02-fail-f.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_UA-2/8.4%20Text%20representation%20for%20content/8.4.4%20Declaring%20natural%20language/8.4.4-t02-fail-f.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 17968,
+      "sha256": "6a2ef829a97878f0922218b8041b2a9112d267dc9fb693f8d155b617ebcb8a9f",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_UA-2/8.4 Text representation for content/8.4.4 Declaring natural language/8.4.4-t02-fail-l.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_UA-2/8.4%20Text%20representation%20for%20content/8.4.4%20Declaring%20natural%20language/8.4.4-t02-fail-l.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 17312,
+      "sha256": "710f9d8fd223ba4066eb9dcd405d68a0f6d11a1437d6b4de5d1c5f945ad0fa5c",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_UA-2/8.4 Text representation for content/8.4.4 Declaring natural language/8.4.4-t02-pass-a.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_UA-2/8.4%20Text%20representation%20for%20content/8.4.4%20Declaring%20natural%20language/8.4.4-t02-pass-a.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 18099,
+      "sha256": "c138aeb5aca130945d6257c3124c8cb726ab183c6c17d347813eaae7dc3b2ca6",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_UA-2/8.4 Text representation for content/8.4.4 Declaring natural language/8.4.4-t02-pass-e.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_UA-2/8.4%20Text%20representation%20for%20content/8.4.4%20Declaring%20natural%20language/8.4.4-t02-pass-e.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 18007,
+      "sha256": "3e0ea1f3659317bcb404bdda5177c77e47a92607251d611ffa2a22d0430b002e",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/PDF_UA-2/8.4 Text representation for content/8.4.5 Fonts/8.4.5.3 Composite fonts/8.4.5.3.1 General/8.4.5.3.1-t01-fail-a.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_UA-2/8.4%20Text%20representation%20for%20content/8.4.5%20Fonts/8.4.5.3%20Composite%20fonts/8.4.5.3.1%20General/8.4.5.3.1-t01-fail-a.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 63084,
+      "sha256": "3e1b69a52b595f55569e22c6fe0734560374bc4b143b97e1857d9d82315f7894",
+      "hostResult": "rejected",
+      "hostStage": "import",
+      "hostReason": "FormatException: Unsupported ICC device colour space \"gray\""
+    },
+    {
+      "file": "veraPDF/PDF_UA-2/8.4 Text representation for content/8.4.5 Fonts/8.4.5.3 Composite fonts/8.4.5.3.1 General/8.4.5.3.1-t01-fail-c.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_UA-2/8.4%20Text%20representation%20for%20content/8.4.5%20Fonts/8.4.5.3%20Composite%20fonts/8.4.5.3.1%20General/8.4.5.3.1-t01-fail-c.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 63073,
+      "sha256": "41a383776ef634250bdbef9c586ad9aa184a89a038aedf8466516c7122058709",
+      "hostResult": "rejected",
+      "hostStage": "import",
+      "hostReason": "FormatException: Unsupported ICC device colour space \"gray\""
+    },
+    {
+      "file": "veraPDF/PDF_UA-2/8.4 Text representation for content/8.4.5 Fonts/8.4.5.4 CMaps/8.4.5.4-t01-pass-a.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_UA-2/8.4%20Text%20representation%20for%20content/8.4.5%20Fonts/8.4.5.4%20CMaps/8.4.5.4-t01-pass-a.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 62593,
+      "sha256": "e88c33449d74053f6320e6f7f26fd6b720a40b9517a4e0ea9fae8d1ae86d8d13",
+      "hostResult": "rejected",
+      "hostStage": "import",
+      "hostReason": "FormatException: Unsupported ICC device colour space \"gray\""
+    },
+    {
+      "file": "veraPDF/PDF_UA-2/8.4 Text representation for content/8.4.5 Fonts/8.4.5.8 Unicode character maps/8.4.5.8-t01-pass-a.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/PDF_UA-2/8.4%20Text%20representation%20for%20content/8.4.5%20Fonts/8.4.5.8%20Unicode%20character%20maps/8.4.5.8-t01-pass-a.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 13358,
+      "sha256": "acf85833e0580624ba647b9ff3c57d9dc8ba3a17911ecdbe3adbe350c43431e9",
+      "hostResult": "rejected",
+      "hostStage": "import",
+      "hostReason": "FormatException: Unsupported ICC device colour space \"gray\""
+    },
+    {
+      "file": "veraPDF/TWG test files/TWG test suite A001-pdfa1-fail-a.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/TWG%20test%20files/TWG%20test%20suite%20A001-pdfa1-fail-a.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 23163,
+      "sha256": "c04bdf25655c6b88b011e117c9eefb40c245102c2df1428fae4d4755f1d0f73d",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/TWG test files/TWG test suite A001-pdfa1-pass-c.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/TWG%20test%20files/TWG%20test%20suite%20A001-pdfa1-pass-c.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 23163,
+      "sha256": "d64bd857659f060eff5b12b41c7802a9119fbf1a60a5434221d2371539eb7886",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/TWG test files/TWG test suite A001-pdfa1-pass-d.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/TWG%20test%20files/TWG%20test%20suite%20A001-pdfa1-pass-d.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 23293,
+      "sha256": "8957b86ebdc0441781002889843a4d650b2c8328cfa94fde0a1f109026a96041",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/TWG test files/TWG test suite A002-pdfa2-fail-c.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/TWG%20test%20files/TWG%20test%20suite%20A002-pdfa2-fail-c.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3942,
+      "sha256": "6162476536cdebf7451087d5784ee150553021c5bea10eceec992daa0cf088d8",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/TWG test files/TWG test suite A019-pdfa2-pass-b.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/TWG%20test%20files/TWG%20test%20suite%20A019-pdfa2-pass-b.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3487,
+      "sha256": "d1941a427a5d969a1910f64fee20e961a875f752e35f810c47e887100548f2e6",
+      "hostResult": "rejected",
+      "hostStage": "import",
+      "hostReason": "FormatException: PDF number is outside the portable range."
+    },
+    {
+      "file": "veraPDF/TWG test files/TWG test suite A020-pdfa1-pass-b.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/TWG%20test%20files/TWG%20test%20suite%20A020-pdfa1-pass-b.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3547,
+      "sha256": "8b2b65184d9c728285892db20fb1638dc3d6152ecf22b2c9f124e93b81c37f67",
+      "hostResult": "accepted"
+    },
+    {
+      "file": "veraPDF/Undefined/veraPDF test suite 6-7-9-t01-undefined-d.pdf",
+      "url": "https://raw.githubusercontent.com/veraPDF/veraPDF-corpus/377728596647e40edf16003d68d620773ce96ec5/Undefined/veraPDF%20test%20suite%206-7-9-t01-undefined-d.pdf",
+      "revision": "377728596647e40edf16003d68d620773ce96ec5",
+      "license": "CC-BY-4.0",
+      "size": 3275,
+      "sha256": "fa64e6c63122ffeddd46f9671182ef71b9a2c816e71ecf1e804fae7207053a71",
+      "hostResult": "accepted"
+    }
+  ],
+  "validation": {
+    "date": "2026-10-27",
+    "host": "Focale",
+    "scope": "Codec decoding, page programs, editable import, native persistence, unchanged PDF page programs. Not a PDF/A conformance verdict.",
+    "accepted": 247,
+    "rejected": 73
+  }
+}

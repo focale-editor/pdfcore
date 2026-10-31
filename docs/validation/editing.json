@@ -1,0 +1,354 @@
+{
+  "validated_on": "2026-10-27",
+  "dart": "3.13.5",
+  "node": "22.23.1",
+  "poppler": "26.01.0",
+  "unit_tests": {
+    "vm": 115,
+    "node": 115
+  },
+  "codec_corpus": {
+    "expected_outcomes": 42,
+    "accepted": 39,
+    "expected_rejections": 3
+  },
+  "program_corpus": {
+    "pikepdf": "10.17.0",
+    "qpdf": "12.4.2",
+    "files": [
+      {
+        "file": "minimal.pdf",
+        "pages_rewritten": 1,
+        "inline_images": 0,
+        "pages_preserved_opaque": [],
+        "qpdf_warnings": [],
+        "identical_rendered_pages": 1
+      },
+      {
+        "file": "good1.pdf",
+        "pages_rewritten": 1,
+        "inline_images": 0,
+        "pages_preserved_opaque": [],
+        "qpdf_warnings": [],
+        "identical_rendered_pages": 1
+      },
+      {
+        "file": "good2.pdf",
+        "pages_rewritten": 1,
+        "inline_images": 0,
+        "pages_preserved_opaque": [],
+        "qpdf_warnings": [],
+        "identical_rendered_pages": 1
+      },
+      {
+        "file": "good3.pdf",
+        "pages_rewritten": 1,
+        "inline_images": 0,
+        "pages_preserved_opaque": [],
+        "qpdf_warnings": [],
+        "identical_rendered_pages": 1
+      },
+      {
+        "file": "good4.pdf",
+        "pages_rewritten": 1,
+        "inline_images": 0,
+        "pages_preserved_opaque": [],
+        "qpdf_warnings": [],
+        "identical_rendered_pages": 1
+      },
+      {
+        "file": "good5.pdf",
+        "pages_rewritten": 1,
+        "inline_images": 0,
+        "pages_preserved_opaque": [],
+        "qpdf_warnings": [],
+        "identical_rendered_pages": 1
+      },
+      {
+        "file": "good6.pdf",
+        "pages_rewritten": 1,
+        "inline_images": 0,
+        "pages_preserved_opaque": [],
+        "qpdf_warnings": [],
+        "identical_rendered_pages": 1
+      },
+      {
+        "file": "good7.pdf",
+        "pages_rewritten": 1,
+        "inline_images": 0,
+        "pages_preserved_opaque": [],
+        "qpdf_warnings": [],
+        "identical_rendered_pages": 1
+      },
+      {
+        "file": "good8.pdf",
+        "pages_rewritten": 1,
+        "inline_images": 0,
+        "pages_preserved_opaque": [],
+        "qpdf_warnings": [],
+        "identical_rendered_pages": 1
+      },
+      {
+        "file": "good9.pdf",
+        "pages_rewritten": 1,
+        "inline_images": 0,
+        "pages_preserved_opaque": [],
+        "qpdf_warnings": [],
+        "identical_rendered_pages": 1
+      },
+      {
+        "file": "good10.pdf",
+        "pages_rewritten": 1,
+        "inline_images": 0,
+        "pages_preserved_opaque": [],
+        "qpdf_warnings": [],
+        "identical_rendered_pages": 1
+      },
+      {
+        "file": "good11.pdf",
+        "pages_rewritten": 1,
+        "inline_images": 0,
+        "pages_preserved_opaque": [],
+        "qpdf_warnings": [],
+        "identical_rendered_pages": 1
+      },
+      {
+        "file": "good12.pdf",
+        "pages_rewritten": 1,
+        "inline_images": 0,
+        "pages_preserved_opaque": [],
+        "qpdf_warnings": [],
+        "identical_rendered_pages": 1
+      },
+      {
+        "file": "good13.pdf",
+        "pages_rewritten": 1,
+        "inline_images": 0,
+        "pages_preserved_opaque": [],
+        "qpdf_warnings": [],
+        "identical_rendered_pages": 1
+      },
+      {
+        "file": "good14.pdf",
+        "pages_rewritten": 1,
+        "inline_images": 0,
+        "pages_preserved_opaque": [],
+        "qpdf_warnings": [],
+        "identical_rendered_pages": 1
+      },
+      {
+        "file": "good15.pdf",
+        "pages_rewritten": 1,
+        "inline_images": 0,
+        "pages_preserved_opaque": [],
+        "qpdf_warnings": [],
+        "identical_rendered_pages": 1
+      },
+      {
+        "file": "good16.pdf",
+        "pages_rewritten": 1,
+        "inline_images": 0,
+        "pages_preserved_opaque": [],
+        "qpdf_warnings": [],
+        "identical_rendered_pages": 1
+      },
+      {
+        "file": "good17.pdf",
+        "pages_rewritten": 30,
+        "inline_images": 0,
+        "pages_preserved_opaque": [],
+        "qpdf_warnings": [],
+        "identical_rendered_pages": 30
+      },
+      {
+        "file": "good18.pdf",
+        "pages_rewritten": 30,
+        "inline_images": 0,
+        "pages_preserved_opaque": [],
+        "qpdf_warnings": [],
+        "identical_rendered_pages": 30
+      },
+      {
+        "file": "good19.pdf",
+        "pages_rewritten": 1,
+        "inline_images": 0,
+        "pages_preserved_opaque": [],
+        "qpdf_warnings": [],
+        "identical_rendered_pages": 1
+      },
+      {
+        "file": "good20.pdf",
+        "pages_rewritten": 1,
+        "inline_images": 0,
+        "pages_preserved_opaque": [],
+        "qpdf_warnings": [],
+        "identical_rendered_pages": 1
+      },
+      {
+        "file": "good21.pdf",
+        "pages_rewritten": 1,
+        "inline_images": 0,
+        "pages_preserved_opaque": [],
+        "qpdf_warnings": [],
+        "identical_rendered_pages": 1
+      },
+      {
+        "file": "hybrid-xref.pdf",
+        "pages_rewritten": 30,
+        "inline_images": 0,
+        "pages_preserved_opaque": [],
+        "qpdf_warnings": [],
+        "identical_rendered_pages": 30
+      },
+      {
+        "file": "object-stream.pdf",
+        "pages_rewritten": 1,
+        "inline_images": 0,
+        "pages_preserved_opaque": [],
+        "qpdf_warnings": [],
+        "identical_rendered_pages": 1
+      },
+      {
+        "file": "c-object-streams.pdf",
+        "pages_rewritten": 30,
+        "inline_images": 0,
+        "pages_preserved_opaque": [],
+        "qpdf_warnings": [],
+        "identical_rendered_pages": 30
+      },
+      {
+        "file": "incremental-1.pdf",
+        "pages_rewritten": 1,
+        "inline_images": 0,
+        "pages_preserved_opaque": [],
+        "qpdf_warnings": [],
+        "identical_rendered_pages": 1
+      },
+      {
+        "file": "incremental-2.pdf",
+        "pages_rewritten": 1,
+        "inline_images": 0,
+        "pages_preserved_opaque": [],
+        "qpdf_warnings": [],
+        "identical_rendered_pages": 1
+      },
+      {
+        "file": "incremental-3.pdf",
+        "pages_rewritten": 1,
+        "inline_images": 0,
+        "pages_preserved_opaque": [],
+        "render_reference": "qpdf-canonical",
+        "qpdf_warnings": [],
+        "identical_rendered_pages": 1
+      },
+      {
+        "file": "minimal-linearized.pdf",
+        "pages_rewritten": 1,
+        "inline_images": 0,
+        "pages_preserved_opaque": [],
+        "qpdf_warnings": [],
+        "identical_rendered_pages": 1
+      },
+      {
+        "file": "inherited-rotate.pdf",
+        "pages_rewritten": 1,
+        "inline_images": 0,
+        "pages_preserved_opaque": [],
+        "qpdf_warnings": [],
+        "identical_rendered_pages": 1
+      },
+      {
+        "file": "form-xobjects-out.pdf",
+        "pages_rewritten": 16,
+        "inline_images": 0,
+        "pages_preserved_opaque": [],
+        "qpdf_warnings": [],
+        "identical_rendered_pages": 16
+      },
+      {
+        "file": "image-streams-small.pdf",
+        "pages_rewritten": 9,
+        "inline_images": 0,
+        "pages_preserved_opaque": [],
+        "qpdf_warnings": [],
+        "identical_rendered_pages": 9
+      },
+      {
+        "file": "png-filters.pdf",
+        "pages_rewritten": 12,
+        "inline_images": 0,
+        "pages_preserved_opaque": [],
+        "qpdf_warnings": [],
+        "identical_rendered_pages": 12
+      },
+      {
+        "file": "tiff-predictor.pdf",
+        "pages_rewritten": 1,
+        "inline_images": 0,
+        "pages_preserved_opaque": [],
+        "qpdf_warnings": [],
+        "identical_rendered_pages": 1
+      },
+      {
+        "file": "indirect-filter.pdf",
+        "pages_rewritten": 2,
+        "inline_images": 0,
+        "pages_preserved_opaque": [],
+        "qpdf_warnings": [],
+        "identical_rendered_pages": 2
+      },
+      {
+        "file": "split-content-stream.pdf",
+        "pages_rewritten": 1,
+        "inline_images": 0,
+        "pages_preserved_opaque": [],
+        "qpdf_warnings": [],
+        "identical_rendered_pages": 1
+      },
+      {
+        "file": "c-linearized.pdf",
+        "pages_rewritten": 30,
+        "inline_images": 0,
+        "pages_preserved_opaque": [],
+        "qpdf_warnings": [],
+        "identical_rendered_pages": 30
+      },
+      {
+        "file": "11-pages.pdf",
+        "pages_rewritten": 11,
+        "inline_images": 0,
+        "pages_preserved_opaque": [],
+        "qpdf_warnings": [],
+        "identical_rendered_pages": 11
+      },
+      {
+        "file": "pound-in-name.pdf",
+        "pages_rewritten": 1,
+        "inline_images": 0,
+        "pages_preserved_opaque": [],
+        "qpdf_warnings": [],
+        "identical_rendered_pages": 1
+      }
+    ]
+  },
+  "edited_features": {
+    "pikepdf": "10.17.0",
+    "qpdf": "12.4.2",
+    "expected_rendered_pages": 2,
+    "unchanged_shared_pages": 1,
+    "features": [
+      "ToUnicode text replacement",
+      "path geometry",
+      "image samples",
+      "form program with transparency group",
+      "binary inline image",
+      "document information"
+    ],
+    "qpdf_warnings": [],
+    "extended_example": {
+      "text_path_image_form_render": "matches independent QPDF reference",
+      "annotations_metadata": "verified",
+      "text_extraction": "After and Done"
+    }
+  }
+}
