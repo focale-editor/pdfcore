@@ -1,14 +1,30 @@
-.dart_tool/
-build/
-coverage/
-doc/
-pubspec.lock
-pubspec_overrides.yaml
+# Local environment and dependency overrides.
 .env
+.env.*
+/pubspec_overrides.yaml
+
+# Editors and operating systems.
+.DS_Store
 .idea/
 .vscode/
 *.iml
-test/corpus/files/
-test/corpus/output/
+*.ipr
+*.iws
+*.log
+*.swp
+
+# Dart outputs.
+.dart_tool/
+/build/
+/coverage/
+/pubspec.lock
+/doc/
+**/docs/api/
+
+# Downloaded corpus files and generated validation artifacts.
+/test/corpus/files/
+/test/corpus/output/
+
+# Python tooling caches.
 __pycache__/
 *.pyc

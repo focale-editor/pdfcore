@@ -1,6 +1,31 @@
-test/corpus/files/
-test/corpus/output/
+# Local configuration, credentials and tooling.
+.env
+.env.*
+.agents/
+.codex/
+.github/
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+*.log
+*.swp
+.DS_Store
+/pubspec.lock
+/pubspec_overrides.yaml
+/pubspec_overrides.yaml.example
 AGENTS.md
-pubspec_overrides.yaml
+analysis_options.yaml
+
+# Generated output and Python caches.
+.dart_tool/
+/build/
+/coverage/
 __pycache__/
 *.pyc
+
+# Development documentation, tests and external corpora.
+/test/
+/doc/
+/docs/

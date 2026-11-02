@@ -4,26 +4,33 @@
 
 # PdfCore
 
-Read, inspect, edit and write PDF documents in Dart.
-
-PdfCore gives editors access to pages, vector paths, text, images, reusable forms
+PdfCore is a pure Dart codec for reading, editing, and writing PDF documents.
+It gives editors access to pages, vector paths, text, images, reusable forms
 and resources while retaining PDF data they do not change. It is pure Dart,
 without Flutter or a native PDF engine, and uses Focale's ZCodec for compression.
 
+## Supported data
+
+- Classic, stream, and hybrid cross references, object streams, and incremental input revisions.
+- Immutable document graphs with inherited page attributes, resources, annotations, and metadata.
+- Editable page programs with vector paths, text runs, images, and reusable forms.
+- Flate, ASCIIHex, ASCII85, RunLength, and LZW decoding with explicit resource limits.
+- Preservation of unknown dictionaries, operators, and opaque encoded streams.
+- Full-file encoding with rebuilt cross references and stable live object identifiers.
+
 ## Installation
 
-Use the sibling checkout while PdfCore is unpublished:
+Add PdfCore to your Dart or Flutter project's `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  pdfcore:
-    path: ../FocalePackages/PdfCore
+  pdfcore: ^0.1.0
 ```
 
-Adjust the path to your project. The package uses the same SDK, lint and release
-configuration conventions as the Focale kits.
+Run `dart pub get`, or `flutter pub get` for a Flutter project. The package uses
+the same SDK, lint and release configuration conventions as the Focale kits.
 
-## Quick start
+## Reading, editing, and writing
 
 Open a document, replace text using its existing font, and save the result:
 
@@ -57,12 +64,31 @@ encoded glyph bytes remain accessible. See the self-contained runnable
 [creation and editing example](example/pdfcore_example.dart) and the
 [image, annotation and XMP example](example/pdfcore_editing.dart).
 
-`PdfCodec` implements `Codec<PdfDocument, List<int>>`. Documents, programs,
+Documents, programs,
 resources and returned collections are immutable. `withText`, `withPath`,
 `withSamples` and `withOperations` return copies. `document.edited(...)` uses an
 isolated `PdfEditor`; its snapshots can be retained for undo/redo. A retained
 editor can group synchronous operations with `transaction(...)`, which restores
 the previous snapshot if the group throws.
+
+## Reusable `dart:convert` API
+
+`PdfCodec` implements `Codec<PdfDocument, List<int>>` and keeps the resource policy
+for reading and writing in one immutable value:
+
+```dart
+const PdfCodec codec = PdfCodec(
+  limits: PdfLimits(maxFileBytes: 32 * 1024 * 1024),
+);
+
+final PdfDocument decoded = codec.decode(bytes);
+final Uint8List output = codec.encode(decoded);
+```
+
+The `List<int>` binary type allows composition with standard codecs such as
+`base64`; direct `encode` calls return `Uint8List`. `PdfDecoder` and `PdfEncoder`
+are also reusable converters. Each conversion handles one complete in-memory
+document. Encoding writes a full revision rather than an incremental update.
 
 ## Common tasks
 

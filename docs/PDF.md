@@ -1,4 +1,18 @@
-# PDF document reference
+# PDF technical reference
+
+This document describes the PDF model, decoding and encoding rules, editing contracts, and resource limits implemented by PdfCore. Start with the [README](../README.md) for usage examples.
+
+## Contents
+
+- [Model and ownership](#model-and-ownership)
+- [Reader](#reader)
+- [Explicit legacy compatibility](#explicit-legacy-compatibility)
+- [Streams and operations](#streams-and-operations)
+- [Copy-based editing](#copy-based-editing)
+- [Writer](#writer)
+- [Resource policy](#resource-policy)
+- [Independent validation](#independent-validation)
+- [References](#references)
 
 ## Model and ownership
 
@@ -44,6 +58,19 @@ than an assertion of all PDF 2.0 semantics. Names before 1.2 treat `#` literally
 Leading junk, non-whitespace after final EOF, duplicate dictionary keys (unless
 explicitly allowlisted), invalid
 xref metadata and damaged/recoverable PDFs are outside strict decoding.
+
+## Explicit legacy compatibility
+
+`PdfCodec.duplicateKeys` defaults to an empty set. Named exceptions accept the
+last dictionary occurrence while counting every entry against the parser budget;
+Focale permits only `Group` for legacy LaTeX producers. Parsing and canonical
+writing retain the object graph and encoded streams, not duplicate syntax.
+
+`PdfFont.read` resolves StandardEncoding, WinAnsi and Adobe Glyph List Differences.
+`unicodeForGlyph` also handles Unicode glyph names and underscore-separated
+clusters. Unknown names need a host mapping; Type 3 codes are not Unicode.
+The pinned AGL data, license and offline generator are under `tool/agl` and
+`tool/generate_glyph_names.py`; see `THIRD_PARTY_NOTICES.md`.
 
 ## Streams and operations
 
@@ -193,6 +220,16 @@ advance according to the new characters; it does not reflow later lines or
 preserve the old text width. Use raw operations for host-generated shaping and
 positioning. `withEncodedText` supports edits without a Unicode map.
 
+#### Encoded glyph clusters
+
+`PdfFont.decodeGlyphs(bytes)` returns immutable `PdfDecodedGlyph` values with
+`code`, `byteLength`, `text` and a lowercase hexadecimal `key`. A glyph's Unicode
+text can contain several scalars, and several codes can map to the same text.
+Retaining the original code is necessary for PDF widths and outline selection;
+`encode(decode(bytes))` can legitimately select a different code when mappings
+are non-injective. `decode` retains its previous concatenated-Unicode behavior.
+Font outline conversion and rendering remain host responsibilities.
+
 ### Images, reusable forms and other features
 
 `PdfImage` exposes the original stream and decoded sample bytes for supported
@@ -318,26 +355,3 @@ See [validation evidence](VALIDATION.md) and the [corpus guide](../test/corpus/R
 - [QPDF source and test suite](https://github.com/qpdf/qpdf)
 - [QPDF content-preserving transformations](https://qpdf.readthedocs.io/en/stable/cli.html)
 - [ZCodec](https://pub.dev/packages/zcodec)
-
-### Encoded glyph clusters
-
-`PdfFont.decodeGlyphs(bytes)` returns immutable `PdfDecodedGlyph` values with
-`code`, `byteLength`, `text` and a lowercase hexadecimal `key`. A glyph's Unicode
-text can contain several scalars, and several codes can map to the same text.
-Retaining the original code is necessary for PDF widths and outline selection;
-`encode(decode(bytes))` can legitimately select a different code when mappings
-are non-injective. `decode` retains its previous concatenated-Unicode behavior.
-Font outline conversion and rendering remain host responsibilities.
-
-## Explicit legacy compatibility
-
-`PdfCodec.duplicateKeys` defaults to an empty set. Named exceptions accept the
-last dictionary occurrence while counting every entry against the parser budget;
-Focale permits only `Group` for legacy LaTeX producers. Parsing and canonical
-writing retain the object graph and encoded streams, not duplicate syntax.
-
-`PdfFont.read` resolves StandardEncoding, WinAnsi and Adobe Glyph List Differences.
-`unicodeForGlyph` also handles Unicode glyph names and underscore-separated
-clusters. Unknown names need a host mapping; Type 3 codes are not Unicode.
-The pinned AGL data, license and offline generator are under `tool/agl` and
-`tool/generate_glyph_names.py`; see `THIRD_PARTY_NOTICES.md`.
