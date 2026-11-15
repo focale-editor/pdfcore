@@ -361,7 +361,7 @@
       "sha256": "1d8a812844b8d8c7ba085a627eb3b7ab52aa651c6143ca07315084220a113240",
       "revision": "4eba95899886e851cc41d76886483b347612f2a8",
       "license": "Apache-2.0 (QPDF test suite)",
-      "expected": "reject"
+      "expected": "accept"
     },
     {
       "file": "pages-loop.pdf",

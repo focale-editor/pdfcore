@@ -1,0 +1,115 @@
+{
+  "schema": 1,
+  "files": [
+    {
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/V4-aes.pdf",
+      "size": 16474,
+      "sha256": "1d8a812844b8d8c7ba085a627eb3b7ab52aa651c6143ca07315084220a113240",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0 (QPDF test suite)",
+      "file": "V4-aes.pdf",
+      "password": "",
+      "expected": "accept"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/V4-aes-clearmeta.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 16910,
+      "sha256": "43610228275fe86819c9fc4f7106c25c60ea433a0ea7c9ddb58671c7a4c14ece",
+      "file": "V4-aes-clearmeta.pdf",
+      "password": "",
+      "expected": "accept"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/V4.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 14781,
+      "sha256": "d82598d67a99b412c19f3a841a23b69bb74c4e4db716ed21f4f61b90ee7d05e7",
+      "file": "V4.pdf",
+      "password": "",
+      "expected": "accept"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/c-r4.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 10892,
+      "sha256": "e2fed5c4fd32106eb46b70aec896471d4acda0799c7d9a5d5e590e2411021cf6",
+      "file": "c-r4.pdf",
+      "password": "",
+      "expected": "password"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/enc-R2%2CV1%2CU%3Dview%2CO%3Dmaster.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 17134,
+      "sha256": "cbd0396c5af37a326cc829b3a031223accf5ea093119eaaa78bf4a386108ed14",
+      "file": "enc-R2,V1,U=view,O=master.pdf",
+      "password": "view",
+      "expected": "accept"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/enc-R2%2CV1.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 17143,
+      "sha256": "d657555453a8933cbfc3fc00d15853ec4d6b03f83eb1941d78a50c424bc9f55e",
+      "file": "enc-R2,V1.pdf",
+      "password": "",
+      "expected": "accept"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/enc-R3%2CV2%2CU%3Dview%2CO%3Dmaster.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 17139,
+      "sha256": "5c0683d687e2e020fe172b1dcb7c29fe94f67bc40f038fee2391de610053fc16",
+      "file": "enc-R3,V2,U=view,O=master.pdf",
+      "password": "view",
+      "expected": "accept"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/enc-XI-R6%2CV5%2CU%3Dview%2CO%3Dmaster.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 15670,
+      "sha256": "96b9262bfacf1358c7a68ab46c11563677e858888950237fdac8f3a227210edf",
+      "file": "enc-XI-R6,V5,U=view,O=master.pdf",
+      "password": "view",
+      "expected": "accept"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/enc-XI-R6%2CV5%2CU%3Dview%2Cattachments%2Ccleartext-metadata.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 22400,
+      "sha256": "d0d7d6d37a4c1e551dabb45532b3b077d973cf8f84ac04d865fd9a5e5fca1d68",
+      "file": "enc-XI-R6,V5,U=view,attachments,cleartext-metadata.pdf",
+      "password": "view",
+      "expected": "accept"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/job-json-encrypt-40.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 1040,
+      "sha256": "afac9a7728e9d248b5e326b7041d0f7bb2fcfa1c94c8314e834fcc39ae5d20c6",
+      "file": "job-json-encrypt-40.pdf",
+      "password": "u",
+      "expected": "accept"
+    },
+    {
+      "url": "https://raw.githubusercontent.com/qpdf/qpdf/4eba95899886e851cc41d76886483b347612f2a8/qpdf/qtest/qpdf/metadata-crypt-filter.pdf",
+      "revision": "4eba95899886e851cc41d76886483b347612f2a8",
+      "license": "Apache-2.0",
+      "size": 15229,
+      "sha256": "58b8a55ced536b05700d2aac856011e269d38ae0aef2d21e7fa2aa6d5bdcf07b",
+      "file": "metadata-crypt-filter.pdf",
+      "password": "",
+      "expected": "accept"
+    }
+  ]
+}

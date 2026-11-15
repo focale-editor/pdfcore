@@ -3,12 +3,20 @@ import 'dart:typed_data';
 
 import 'package:pdfcore/src/codec/pdf_filters.dart';
 import 'package:pdfcore/src/codec/pdf_reader.dart';
+import 'package:pdfcore/src/codec/pdf_security_handler.dart';
 import 'package:pdfcore/src/codec/pdf_syntax.dart';
 import 'package:pdfcore/src/model/pdf_document.dart';
+import 'package:pdfcore/src/model/pdf_security.dart';
 import 'package:pdfcore/src/model/pdf_value.dart';
 
 /// Complete-document PDF codec with preservation of opaque stream data.
 final class PdfCodec extends Codec<PdfDocument, List<int>> {
+  /// User or owner password for decoding.
+  final String password;
+
+  /// Explicit output protection; omitted output is unencrypted.
+  final PdfEncryption? encryption;
+
   /// Resource policy for reading and writing.
   final PdfLimits limits;
 
@@ -18,13 +26,13 @@ final class PdfCodec extends Codec<PdfDocument, List<int>> {
   final Set<String> duplicateKeys;
 
   /// Creates a portable PDF codec.
-  const PdfCodec({this.limits = const PdfLimits(), this.duplicateKeys = const {}});
+  const PdfCodec({this.limits = const PdfLimits(), this.duplicateKeys = const {}, this.password = '', this.encryption});
 
   @override
-  PdfDecoder get decoder => PdfDecoder(limits: limits, duplicateKeys: duplicateKeys);
+  PdfDecoder get decoder => PdfDecoder(limits: limits, duplicateKeys: duplicateKeys, password: password);
 
   @override
-  PdfEncoder get encoder => PdfEncoder(limits: limits);
+  PdfEncoder get encoder => PdfEncoder(limits: limits, encryption: encryption);
 
   @override
   Uint8List encode(PdfDocument input) => encoder.convert(input);
@@ -32,6 +40,9 @@ final class PdfCodec extends Codec<PdfDocument, List<int>> {
 
 /// Reads classic, stream, hybrid and incremental cross-reference structures.
 final class PdfDecoder extends Converter<List<int>, PdfDocument> {
+  /// Password for standard security; the empty password is tried by default.
+  final String password;
+
   /// Resource policy for hostile or oversized input.
   final PdfLimits limits;
 
@@ -39,7 +50,7 @@ final class PdfDecoder extends Converter<List<int>, PdfDocument> {
   final Set<String> duplicateKeys;
 
   /// Creates a strict decoder; damaged xrefs are not guessed by scanning.
-  const PdfDecoder({this.limits = const PdfLimits(), this.duplicateKeys = const {}});
+  const PdfDecoder({this.limits = const PdfLimits(), this.duplicateKeys = const {}, this.password = ''});
 
   @override
   PdfDocument convert(List<int> input) {
@@ -50,7 +61,7 @@ final class PdfDecoder extends Converter<List<int>, PdfDocument> {
     if (input.any((byte) => byte < 0 || byte > 255)) {
       throw const FormatException('Input contains values outside the byte range.');
     }
-    return PdfFileReader(bytes: Uint8List.fromList(input), limits: limits, duplicateKeys: duplicateKeys).read();
+    return PdfFileReader(bytes: Uint8List.fromList(input), limits: limits, duplicateKeys: duplicateKeys, password: password).read();
   }
 }
 
@@ -59,11 +70,14 @@ final class PdfDecoder extends Converter<List<int>, PdfDocument> {
 /// Object identifiers and encoded stream payloads are preserved. This is not
 /// an incremental or signature-preserving writer; linearization is removed.
 final class PdfEncoder extends Converter<PdfDocument, List<int>> {
+  /// Fresh AES-256 security, independent of the decoded document's provenance.
+  final PdfEncryption? encryption;
+
   /// Resource policy for the resulting file.
   final PdfLimits limits;
 
   /// Creates a canonical full-rewrite encoder.
-  const PdfEncoder({this.limits = const PdfLimits()});
+  const PdfEncoder({this.limits = const PdfLimits(), this.encryption});
 
   @override
   Uint8List convert(PdfDocument input) {
@@ -72,7 +86,7 @@ final class PdfEncoder extends Converter<PdfDocument, List<int>> {
       throw const FormatException('Unsupported PDF output version.');
     }
     if (input.trailer['Encrypt'] != null && input.trailer['Encrypt'] is! PdfNull) {
-      throw const PdfUnsupportedException(message: 'Writing encrypted PDFs is unsupported.');
+      throw const PdfUnsupportedException(message: 'Decode encrypted source objects before writing.');
     }
     if (input.objects.length > limits.maxObjects) {
       throw const FormatException('PDF object count exceeds the output limit.');
@@ -82,10 +96,24 @@ final class PdfEncoder extends Converter<PdfDocument, List<int>> {
       throw const FormatException('PDF output Root must be a Catalog.');
     }
     checked.pages;
-    final List<PdfReference> references = input.objects.keys.toList()..sort((a, b) => a.objectNumber.compareTo(b.objectNumber));
+    final Map<PdfReference, PdfValue> objects = {...input.objects};
+    final List<PdfReference> references = objects.keys.toList()..sort((a, b) => a.objectNumber.compareTo(b.objectNumber));
+    final PdfSecurityHandler? security = encryption == null ? null : PdfSecurityHandler.create(encryption!);
+    final PdfReference? encryptionReference = security == null ? null : PdfReference(objectNumber: references.isEmpty ? 1 : references.last.objectNumber + 1);
+    if (encryptionReference != null) {
+      objects[encryptionReference] = security!.dictionary;
+      references.add(encryptionReference);
+    }
+    if (references.length > limits.maxObjects) {
+      throw const FormatException('PDF object count exceeds the output limit.');
+    }
     final Set<int> numbers = {};
     final PdfSyntaxWriter writer = PdfSyntaxWriter(limits: limits);
-    final String version = ['1.0', '1.1'].contains(input.version) ? '1.2' : input.version;
+    final String version = security != null
+        ? '2.0'
+        : ['1.0', '1.1'].contains(input.version)
+        ? '1.2'
+        : input.version;
     writer.text('%PDF-$version\n%\xe2\xe3\xcf\xd3\n');
     final Map<PdfReference, int> offsets = {};
     for (final PdfReference reference in references) {
@@ -94,7 +122,8 @@ final class PdfEncoder extends Converter<PdfDocument, List<int>> {
       }
       offsets[reference] = writer.length;
       writer.text('${reference.objectNumber} ${reference.generation} obj\n');
-      final PdfValue value = input.objects[reference]!;
+      final PdfValue original = objects[reference]!;
+      final PdfValue value = security == null || reference == encryptionReference ? original : security.encrypt(original);
       writer.value(value is PdfDictionary && value['Linearized'] != null ? value.copyWith(remove: {'Linearized'}) : value, allowStream: true);
       writer.text('\nendobj\n');
     }
@@ -118,9 +147,22 @@ final class PdfEncoder extends Converter<PdfDocument, List<int>> {
       writer.text('${offset.toString().padLeft(10, '0')} ${reference.generation.toString().padLeft(5, '0')} n \n');
     }
     writer.text('trailer\n');
+    final PdfValue? identifiers = input.trailer['ID'];
+    final PdfString? originalIdentifier = identifiers is PdfArray && identifiers.values.isNotEmpty && identifiers.values.first is PdfString ? identifiers.values.first as PdfString : null;
     writer.value(
       input.trailer.copyWith(
-        values: {'Size': PdfNumber(value: references.isEmpty ? 1 : references.last.objectNumber + 1)},
+        values: {
+          'Size': PdfNumber(value: references.isEmpty ? 1 : references.last.objectNumber + 1),
+          if (encryptionReference != null) ...{
+            'Encrypt': encryptionReference,
+            'ID': PdfArray(
+              values: [
+                if (originalIdentifier != null && originalIdentifier.bytes.isNotEmpty) originalIdentifier else PdfString(bytes: PdfSecurityHandler.randomBytes(16)),
+                PdfString(bytes: PdfSecurityHandler.randomBytes(16)),
+              ],
+            ),
+          },
+        },
         remove: {'Prev', 'XRefStm', 'Type', 'W', 'Index', 'Length', 'Filter', 'DecodeParms', 'Encrypt'},
       ),
     );

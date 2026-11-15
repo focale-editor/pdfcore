@@ -141,7 +141,20 @@ raw samples or Flate, LZW, ASCIIHex, ASCII85, RunLength and JPEG boundaries are
 editable. Other inline boundaries fail explicitly rather than guess where binary
 data ends. Original raw content is still preservable.
 
-Encrypted documents are rejected. Saving writes a full revision and invalidates
+Standard password-encrypted PDFs (RC4, AES-128 and AES-256, revisions 2–6) can be
+opened with `PdfCodec(password: '...').decode(bytes)`. The default empty password
+opens files that only carry owner restrictions. Catch `PdfPasswordException` to
+request or retry a user/owner password; unsupported handlers throw
+`PdfEncryptionUnsupportedException`. The result is a **decrypted** graph, with
+credential-free source information in `document.security`. Saving it writes an
+**unencrypted** PDF by default. Request AES-256 revision 6 explicitly with
+`PdfCodec(encryption: PdfEncryption.aes256(userPassword: '...', ownerPassword: '...')).encode(document)`.
+The owner password must be nonempty; `PdfPermissions` and `encryptMetadata`
+control viewer permissions and XMP protection. Source permission
+flags are exposed to hosts, not enforced as editing restrictions by the codec.
+See [password security](docs/PDF.md#password-security) for encoding limits.
+
+Saving writes a full revision and invalidates
 signatures and old byte ranges. Page-tree edits do not repair navigation,
 page labels, tagging or AcroForm trees. Cross-document imports reject structures
 that need a document-wide merge policy. Removing content is **not secure

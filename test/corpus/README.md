@@ -1,7 +1,7 @@
 # PdfCore external corpus
 
 The manifest pins 42 internet fixtures with URL, revision, size, SHA-256,
-license and expected outcome. 3 are deliberate rejection cases. Run the fetcher and checker from this package:
+license and expected outcome. 2 are deliberate rejection cases. Run the fetcher and checker from this package:
 
 ```sh
 python3 tool/fetch_corpus.py
@@ -75,3 +75,25 @@ and excluded from publication; retain upstream attribution if redistributing it.
 
 The October 27, 2026 host run accepts 252 entries and explicitly rejects 68.
 This is admission and persistence coverage, not a claim of PDF/A conformance.
+
+## Password security corpus
+
+`security_manifest.json` pins 11 QPDF internet fixtures, including Adobe Acrobat
+XI AES-256 files, legacy RC4, AES-128, attachments and cleartext metadata. Ten
+have a known opening password; one deliberately checks the password-required
+result. No private user document is included.
+
+```sh
+python3 tool/fetch_corpus.py --manifest test/corpus/security_manifest.json --directory test/corpus/files/security
+dart run tool/check_security_corpus.dart
+/tmp/pdfcore-qa/bin/python tool/verify_security_corpus.py
+```
+
+Use the Python environment described above (also validated with pikepdf 10.18.1).
+The Dart checker writes decrypted and AES-256 reencrypted copies. The Python
+checker authenticates with QPDF using both passwords, rejects a wrong password,
+checks permissions, compares all decrypted stream bytes and document information,
+and compares the first page's Poppler pixels exactly. Reports remain under
+`output/security/`; these checks establish codec interoperability, not editable
+host rendering of every PDF feature. The expanded host manifest above remains a
+historical snapshot; its encrypted rejection outcomes predate password support.

@@ -12,4 +12,5 @@ export 'package:pdfcore/src/editing/pdf_resources.dart';
 export 'package:pdfcore/src/editing/pdf_streams.dart';
 export 'package:pdfcore/src/editing/pdf_xobject.dart';
 export 'package:pdfcore/src/model/pdf_document.dart';
+export 'package:pdfcore/src/model/pdf_security.dart';
 export 'package:pdfcore/src/model/pdf_value.dart';

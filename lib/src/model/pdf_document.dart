@@ -1,6 +1,7 @@
 import 'dart:typed_data';
 
 import 'package:pdfcore/src/codec/pdf_filters.dart';
+import 'package:pdfcore/src/model/pdf_security.dart';
 import 'package:pdfcore/src/model/pdf_value.dart';
 
 /// Resource limits for PDF syntax, graphs and stream decoding.
@@ -43,6 +44,9 @@ final class PdfLimits {
 
 /// A complete immutable PDF object graph at the latest file revision.
 final class PdfDocument {
+  /// Source encryption provenance; the graph itself is already decrypted.
+  final PdfSecurity? security;
+
   /// Header version, such as 1.7 or 2.0.
   final String version;
 
@@ -56,7 +60,7 @@ final class PdfDocument {
   final PdfLimits limits;
 
   /// Copies the object map without altering immutable values.
-  PdfDocument({this.version = '1.7', required Map<PdfReference, PdfValue> objects, required this.trailer, this.limits = const PdfLimits()}) : objects = Map.unmodifiable(objects);
+  PdfDocument({this.version = '1.7', required Map<PdfReference, PdfValue> objects, required this.trailer, this.limits = const PdfLimits(), this.security}) : objects = Map.unmodifiable(objects);
 
   /// Creates a PDF from independent page content streams.
   ///
@@ -111,7 +115,7 @@ final class PdfDocument {
 
   /// Replaces selected document components while preserving other objects.
   PdfDocument copyWith({Map<PdfReference, PdfValue>? objects, PdfDictionary? trailer, String? version}) =>
-      PdfDocument(version: version ?? this.version, objects: objects ?? this.objects, trailer: trailer ?? this.trailer, limits: limits);
+      PdfDocument(version: version ?? this.version, objects: objects ?? this.objects, trailer: trailer ?? this.trailer, limits: limits, security: security);
 
   /// Resolves references; undefined objects are PDF null, and cycles fail.
   PdfValue resolve(PdfValue value) {

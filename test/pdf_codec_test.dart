@@ -159,8 +159,8 @@ void main() {
     check(reopened.trailer['Prev']).isNull();
   });
 
-  test('rejects encrypted documents explicitly', () {
-    check(() => const PdfCodec().decode(classicPdf(trailer: '/Encrypt << /Filter /Standard >>'))).throws<PdfUnsupportedException>();
+  test('rejects unsupported encryption revisions explicitly', () {
+    check(() => const PdfCodec().decode(classicPdf(trailer: '/Encrypt << /Filter /Standard /V 9 /R 9 >>'))).throws<PdfEncryptionUnsupportedException>();
   });
 
   test('rejects broken xref offsets instead of scanning for object-like bytes', () {

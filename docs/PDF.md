@@ -6,6 +6,7 @@ This document describes the PDF model, decoding and encoding rules, editing cont
 
 - [Model and ownership](#model-and-ownership)
 - [Reader](#reader)
+- [Password security](#password-security)
 - [Explicit legacy compatibility](#explicit-legacy-compatibility)
 - [Streams and operations](#streams-and-operations)
 - [Copy-based editing](#copy-based-editing)
@@ -59,6 +60,74 @@ Leading junk, non-whitespace after final EOF, duplicate dictionary keys (unless
 explicitly allowlisted), invalid
 xref metadata and damaged/recoverable PDFs are outside strict decoding.
 
+## Password security
+
+`PdfCodec` and `PdfDecoder` accept an optional `password`, defaulting to the empty
+string. Standard security revisions 2/3 (RC4), 4 (RC4 or AES-128), and 5/6
+(AES-256) authenticate user or owner passwords. An empty opening password needs
+no prompt. `PdfPasswordException` requests another password; unsupported
+security handlers, revisions and methods use `PdfEncryptionUnsupportedException`.
+Malformed fields, AES padding and mismatched encrypted permissions fail as
+`FormatException`. Certificate security is unsupported.
+
+Legacy passwords use PDFDocEncoding and the standard 32-byte padding/truncation.
+Modern passwords use up to 127 UTF-8 bytes. Unicode SASLprep normalization is
+not performed; hosts must supply the same normalized password used by a producer
+that applies it. ASCII and ordinary precomposed Unicode passwords interoperate
+with QPDF. Authentication checks do not include credentials in errors.
+
+Indirect strings and streams are decrypted with their object/generation key.
+Object-stream members are parsed only after their container is decrypted and are
+not decrypted twice. Cross-reference streams, the encryption dictionary and
+signature contents are exempt. Revision 4+ supports `StrF`, `StmF`, `EFF`,
+`EncryptMetadata`, and a leading explicit `Crypt` filter (including `Identity`).
+The crypt filter is removed after decryption; other compression stays encoded.
+
+The returned immutable graph is plaintext. `PdfDocument.security` records only
+revision, permissions and whether the owner password authenticated. `/Encrypt`
+and its indirect dictionary are removed, so authentication hashes and wrapped
+keys are not retained. The decoder holds the key only during reading. Hosts own
+permission policy and must explain that copies are unencrypted unless the encoder
+is explicitly configured with new protection.
+Memory budgets and nesting limits still apply. Revision 6 strengthening is
+bounded by its byte-dependent termination rule (at most 287 rounds).
+
+### Encrypted output
+
+`PdfCodec` and `PdfEncoder` accept an optional `PdfEncryption.aes256`:
+
+```dart
+final Uint8List bytes = PdfCodec(
+  encryption: PdfEncryption.aes256(
+    userPassword: 'opening password',
+    ownerPassword: 'distinct owner password',
+    permissions: PdfPermissions(copy: false, modify: false),
+    encryptMetadata: true,
+  ),
+).encode(document);
+```
+
+Output uses PDF 2.0 standard security revision 6, AES-256-CBC, fresh secure random
+file keys, salts and per-payload initialization vectors. Legacy encryption is
+read-only. The nonempty owner password grants full access in cooperating viewers;
+an empty user password permits opening without a prompt. Permissions are advisory
+and do not make decrypted content impossible to extract. Accessibility extraction
+remains allowed. The same UTF-8 password limits described above apply on output.
+
+Credentials belong to the transient encoder configuration, never the document.
+The source graph is unchanged, its original file identifier is retained when
+valid, and a fresh revision identifier is generated. Omitting `encryption` writes
+plaintext even when the source was encrypted. Encryption is not signature
+preservation: all output remains a full rewrite.
+
+### Validation
+
+`test/pdf_security_test.dart` uses independent QPDF-generated rectangles,
+metadata and object streams, available on VM and Node. Regenerate the original
+synthetic fixtures with `tool/generate_security_fixtures.py` (pikepdf 10.18.1).
+No private document is included. Additional tests cover malformed fields,
+explicit Identity streams, signature exemption and tampered permissions.
+
 ## Explicit legacy compatibility
 
 `PdfCodec.duplicateKeys` defaults to an empty set. Named exceptions accept the
@@ -77,7 +146,9 @@ The pinned AGL data, license and offline generator are under `tool/agl` and
 `PdfFilters.decode` and `PdfDocument.decodeStream` implement Flate, ASCIIHex,
 ASCII85, RunLength and LZW (EarlyChange 0/1). Flate uses ZCodec. TIFF predictor 2
 and PNG predictors 10–15 are supported. Image-specific filters such as DCT, JPX,
-JBIG2 and CCITT, and Crypt filters, remain opaque. Unknown filters do not block
+JBIG2 and CCITT remain opaque. Crypt filters are consumed by authenticated file
+reading; standalone encrypted streams cannot be decoded without that context.
+Unknown filters do not block
 preserving the original encoded stream; they do block requested decompression.
 External stream files are never fetched.
 
@@ -355,3 +426,6 @@ See [validation evidence](VALIDATION.md) and the [corpus guide](../test/corpus/R
 - [QPDF source and test suite](https://github.com/qpdf/qpdf)
 - [QPDF content-preserving transformations](https://qpdf.readthedocs.io/en/stable/cli.html)
 - [ZCodec](https://pub.dev/packages/zcodec)
+
+The [security corpus](../test/corpus/README.md#password-security-corpus) also
+checks downloaded Adobe/QPDF PDFs, independent authentication and Poppler renders.

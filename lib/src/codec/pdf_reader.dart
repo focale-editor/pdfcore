@@ -3,6 +3,7 @@ import 'dart:math' as math;
 import 'dart:typed_data';
 
 import 'package:pdfcore/src/codec/pdf_filters.dart';
+import 'package:pdfcore/src/codec/pdf_security_handler.dart';
 import 'package:pdfcore/src/codec/pdf_syntax.dart';
 import 'package:pdfcore/src/model/pdf_document.dart';
 import 'package:pdfcore/src/model/pdf_value.dart';
@@ -27,6 +28,15 @@ typedef _Indirect = ({PdfReference reference, PdfValue value});
 
 /// Resolves the latest PDF revision using authoritative cross references.
 final class PdfFileReader {
+  /// Credential used only while authenticating this read.
+  final String password;
+
+  /// Authenticated standard security, absent for plaintext files.
+  PdfSecurityHandler? _security;
+
+  /// Encryption dictionary is never itself encrypted.
+  PdfReference? _encryptionReference;
+
   /// Owned source bytes.
   final Uint8List bytes;
 
@@ -58,7 +68,7 @@ final class PdfFileReader {
   int _decodedBytes = 0;
 
   /// Creates a complete-file parser.
-  PdfFileReader({required this.bytes, required this.limits, this.duplicateKeys = const {}});
+  PdfFileReader({required this.bytes, required this.limits, this.duplicateKeys = const {}, this.password = ''});
 
   /// Reads header, revisions, all live objects and the page tree.
   PdfDocument read() {
@@ -107,18 +117,40 @@ final class PdfFileReader {
       offset = section.trailer.integer('Prev');
     }
     if (trailer['Encrypt'] != null && trailer['Encrypt'] is! PdfNull) {
-      throw const PdfUnsupportedException(message: 'Encrypted PDFs require a decryption provider.');
+      final PdfValue encryption = trailer['Encrypt']!;
+      if (encryption is PdfReference) {
+        _encryptionReference = encryption;
+        if (_entries[encryption.objectNumber]?.type != 1) {
+          throw const FormatException('PDF encryption dictionary must be uncompressed.');
+        }
+      }
+      final PdfValue resolved = encryption is PdfReference ? _resolve(encryption) : encryption;
+      if (resolved is! PdfDictionary) {
+        throw const FormatException('Invalid PDF encryption dictionary.');
+      }
+      final PdfValue? ids = trailer['ID'];
+      final Uint8List identifier = ids is PdfArray && ids.values.isNotEmpty && ids.values.first is PdfString ? (ids.values.first as PdfString).bytes : Uint8List(0);
+      _security = PdfSecurityHandler.authenticate(dictionary: resolved, identifier: identifier, password: password);
+      // Authentication may have resolved structural objects before the key was
+      // available. Re-read them with the authenticated handler.
+      _objects.clear();
+      _objectStreams.clear();
+      trailer.remove('Encrypt');
     }
     for (final MapEntry<int, _Entry> entry in _entries.entries) {
       if (entry.value.type != 0 && entry.key != 0) {
         _resolve(PdfReference(objectNumber: entry.key, generation: entry.value.type == 2 ? 0 : entry.value.second));
       }
     }
+    // Authentication hashes and wrapped keys are not part of the plaintext
+    // document, including when a host retains or rewrites the complete graph.
+    _objects.remove(_encryptionReference);
     final PdfDocument document = PdfDocument(
       version: version[1]!,
       objects: _objects,
       trailer: PdfDictionary(values: trailer),
       limits: limits,
+      security: _security?.security,
     );
     if (document.catalog.name('Type') != 'Catalog') {
       throw const FormatException('PDF Root is not a catalog.');
@@ -278,7 +310,7 @@ final class PdfFileReader {
         if (object.reference != reference) {
           throw const FormatException('PDF xref does not match object header.');
         }
-        value = object.value;
+        value = reference == _encryptionReference ? object.value : _security?.decrypt(object.value, reference) ?? object.value;
       } else {
         final ({Uint8List bytes, List<int> numbers, List<int> offsets, int first}) stream = _loadObjectStream(entry.first);
         if (entry.second >= stream.numbers.length || stream.numbers[entry.second] != reference.objectNumber) {
